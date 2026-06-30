@@ -1,0 +1,22 @@
+{"software": "WeChat for Windows", "source": "vendor_cdn_head", "url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe", "status": 200}
+{"software": "WeChat for Windows", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/WeChat/3.9.12.57/Tencent.WeChat.installer.yaml", "status": "ok", "version": "3.9.12.57"}
+{"software": "WeChat for Windows", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "WeChat for Windows", "source": "virustotal", "status": "rate_limited"}
+{"software": "QQ for Windows", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/QQ/9.7.23.29392/Tencent.QQ.installer.yaml", "status": "ok", "version": "9.7.23.29392"}
+{"software": "QQ for Windows", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "QQ for Windows", "source": "virustotal", "status": "rate_limited"}
+{"software": "Tencent Meeting (VooV)", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/TencentMeeting/3.43.21.403/Tencent.TencentMeeting.installer.yaml", "status": "ok", "version": "3.43.21.403"}
+{"software": "Tencent Meeting (VooV)", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "Tencent Meeting (VooV)", "source": "virustotal", "status": "rate_limited"}
+{"software": "WeCom (Enterprise WeChat)", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/WeCom/5.0.9.6029/Tencent.WeCom.installer.yaml", "status": "ok", "version": "5.0.9.6029"}
+{"software": "WeCom (Enterprise WeChat)", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "WeCom (Enterprise WeChat)", "source": "virustotal", "status": "rate_limited"}
+{"software": "HUAWEI HiSuite", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/h/Huawei/HiSuite/14.0.0.370/Huawei.HiSuite.installer.yaml", "status": "ok", "version": "14.0.0.370"}
+{"software": "HUAWEI HiSuite", "source": "nvd_cpe", "status": "ok", "cpe": "cpe:2.3:a:huawei:hisuite:*:*:*:*:*:*:*"}
+{"software": "HUAWEI HiSuite", "source": "virustotal", "status": "rate_limited"}
+{"software": "DJI Assistant 2", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DJI/DJIAssistant2/ConsumerDronesSeries/V2.1.5.8/DJI.DJIAssistant2.ConsumerDronesSeries.installer.yaml", "status": "ok", "version": "V2.1.5.8"}
+{"software": "DJI Assistant 2", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "DJI Assistant 2", "source": "virustotal", "status": "rate_limited"}
+{"software": "DJI Terra", "source": "winget", "url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/d/DJI/DJITerra/4.5.0/DJI.DJITerra.installer.yaml", "status": "ok", "version": "4.5.0"}
+{"software": "DJI Terra", "source": "nvd_cpe", "status": "ok", "cpe": null}
+{"software": "DJI Terra", "source": "virustotal", "status": "rate_limited"}

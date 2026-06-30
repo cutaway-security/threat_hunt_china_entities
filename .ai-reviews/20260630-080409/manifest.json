@@ -1,0 +1,72 @@
+{
+  "generated": "2026-06-30T08:06:06.308534",
+  "project_root": "/home/cutaway/Projects/threat_hunt_china_entities",
+  "mode": "architecture",
+  "review_type": "independent",
+  "artifacts": [],
+  "has_code": true,
+  "code_files": [
+    "data/source_extraction/parse_1260h.py"
+  ],
+  "context_chars": 160877,
+  "files_sent": [
+    ".gitignore",
+    "background/_quarantine_untrusted_copilot/china_entities_review_process.md",
+    "background/_quarantine_untrusted_copilot/china_entities_review_summary.md",
+    "background/original_report_url.txt",
+    "claude-dev/20260630_1260h_software_threat_hunt_RESEARCH.md",
+    "claude-dev/DISCOVERY_NOTES.md",
+    "claude-dev/REQUIREMENTS.md",
+    "claude-dev/SUCCESS_CRITERIA.md",
+    "claude-dev/VISION.md",
+    "claude-dev/stix_modeling_notes.md",
+    "claude-dev/verification_pipeline_notes.md",
+    "data/source_extraction/1260h_pdftotext_layout.txt",
+    "data/source_extraction/entities_1260h.json",
+    "data/source_extraction/parse_1260h.py"
+  ],
+  "files_skipped": [
+    {
+      "file": "background/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
+      "reason": "binary/generated"
+    },
+    {
+      "file": "background/_quarantine_untrusted_copilot/FINAL_FULL_DATASET.zip",
+      "reason": "binary/generated"
+    },
+    {
+      "file": "background/_quarantine_untrusted_copilot/verified_dataset_bundle.zip",
+      "reason": "binary/generated"
+    }
+  ],
+  "secrets_redacted": 0,
+  "truncated_files": [],
+  "redaction_enabled": true,
+  "operator_note": "",
+  "reviewers": [
+    {
+      "prefix": "anthropic",
+      "adapter": "anthropic",
+      "model": "claude-opus-4-8",
+      "ok": true,
+      "error": null,
+      "output": "2026-06-30_0804_anthropic_review.md"
+    },
+    {
+      "prefix": "mistral",
+      "adapter": "openai",
+      "model": "mistral-medium-latest",
+      "ok": true,
+      "error": null,
+      "output": "2026-06-30_0804_mistral_review.md"
+    },
+    {
+      "prefix": "openai",
+      "adapter": "openai",
+      "model": "gpt-5.4",
+      "ok": true,
+      "error": null,
+      "output": "2026-06-30_0804_openai_review.md"
+    }
+  ]
+}

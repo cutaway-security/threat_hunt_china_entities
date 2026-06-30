@@ -1,0 +1,708 @@
+{
+  "designated_parents": [
+    {
+      "name": "360 Security Technology Inc. (Qihoo 360)",
+      "short_alias": "Qihoo 360",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Qihoo 360 is directly and indirectly affiliated with the Ministry of Industry and Information Technology (MIIT) and the Ministry of State Security (Section 1260H(g)(2)(B)(i)(I)). Qihoo 360 is a military civil fusion contributor to the Chinese defense industrial base because it is affiliated with the MIIT and with MSS (Sections 1260H(g)(3)(B)(i) and (g)(3)(B)(iv))."
+    },
+    {
+      "name": "Aerospace CH UAV Co., Ltd (CH UAV)",
+      "short_alias": "CH UAV",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CH UAV is indirectly owned by the State-Owned Assets Supervision and Administration Commission of the State Council (SASAC) and is directly affiliated with the People’s Liberation Army (PLA) (Section 1260H(g)(2)(B)(i)(I)). CH UAV is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the People’s Liberation Army (PLA) (Section 1260H(g)(3)(B)(v))."
+    },
+    {
+      "name": "Aerosun Corporation (Aerosun)",
+      "short_alias": "Aerosun",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Aerosun is indirectly owned by the SASAC and is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Alibaba Group Holding Limited (Alibaba)",
+      "short_alias": "Alibaba",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Alibaba is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Alibaba is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i))."
+    },
+    {
+      "name": "Autel Intelligent Technology Corp., Ltd. (Autel Technology)",
+      "short_alias": "Autel Technology",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Autel Technology is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i))."
+    },
+    {
+      "name": "Autel Robotics Co., Ltd. (Autel Robotics)",
+      "short_alias": "Autel Robotics",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Autel Robotics is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Aviation Industry Corporation of China Ltd. (AVIC)",
+      "short_alias": "AVIC",
+      "subsidiary_count": 17,
+      "subsidiaries": [
+        "Align Aerospace LLC",
+        "Avicopter PLC",
+        "AVIC Aerospace Systems Co., Ltd.",
+        "AVIC Airborne Systems Co., Ltd.",
+        "AVIC Asset Management Corporation Ltd.",
+        "AVIC Aviation High-Technology Company Limited (AVIC Aviation Hi-Tech)",
+        "AVIC Chengdu Aircraft Co., Ltd. (formerly Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC))",
+        "AVIC Electromechanical Systems Co. Ltd.",
+        "AVIC Heavy Machinery Company Limited (AVIC Heavy Machinery)",
+        "AVIC JONHON Optronic Technology Co., Ltd. (AVIC Jonhon)",
+        "AVIC Shenyang Aircraft Company Limited (AVIC Shenyang)",
+        "AVIC Xi’an Aircraft Industry Group Company Ltd. (formerly Xi’an Aircraft Industry Group Co., Ltd.)",
+        "Changhe Aircraft Industries (Group) Co., Ltd.",
+        "Cirrus Design Corporation",
+        "Continental Aerospace Technologies, Inc.",
+        "Jiangxi Hongdu Aviation Industry Co., Ltd. (Hongdu Aviation)",
+        "Shenyang Aircraft Design Institute"
+      ],
+      "rationale": "AVIC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)). AVIC is a military-civil fusion contributors to the Chinese defense industrial base because it is affiliated with SASAC and State Administration of Science, Technology and Industry for National Defense (SASTIND) (Section 1260H(g)(3)(B))."
+    },
+    {
+      "name": "Baicells Technologies Co., Ltd. (Baicells)",
+      "short_alias": "Baicells",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Baicells is indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I)). Baicells is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i))."
+    },
+    {
+      "name": "Baidu, Inc. (Baidu)",
+      "short_alias": "Baidu",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Baidu is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Baidu is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i))."
+    },
+    {
+      "name": "Beijing Zhidao Chuangyu Information Technology Co., Ltd. (Knownsec)",
+      "short_alias": "Knownsec",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Knownsec is directly affiliated with MIIT and indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(i)(I)). Knownsec is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i))."
+    },
+    {
+      "name": "BGI Group",
+      "short_alias": null,
+      "subsidiary_count": 7,
+      "subsidiaries": [
+        "BGI Americas Corporation",
+        "BGI Genomics Co., Ltd. (BGI)",
+        "Complete Genomics, Inc.",
+        "Forensic Genomics International (FGI)",
+        "GBI Diagnostics, Inc.",
+        "Innomics Inc.",
+        "STOmics Americas Ltd."
+      ],
+      "rationale": "BGI Group is directly with the PLA and indirectly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I)). BGI Group is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to the Chinese military planning apparatus, or in furtherance of Chinese military industrial planning objectives and because it is affiliated with MIIT and the PLA (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(B)(v))."
+    },
+    {
+      "name": "BOE Technology Group Company Limited (BOE)",
+      "short_alias": "BOE",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "BOE is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)). BOE is a military- civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA and because it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(B)(v) and (g)(3)(E))."
+    },
+    {
+      "name": "BYD Company Limited (BYD)",
+      "short_alias": "BYD",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "BYD is directly and indirectly affiliated with SASAC and is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)). BYD is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT and because it resides in or is affiliated with a military-civil fusion enterprise zone (Sections 1260H(g)(3)(B)(i) and (g)(3)(E))."
+    },
+    {
+      "name": "CALB Group Co., Ltd. (CALB)",
+      "short_alias": "CALB",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CALB is indirectly owned by SASAC and is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CETC Cyberspace Security Technology Co., Ltd. is indirectly owned by SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CETC Digital Technology Co., Ltd. (formerly Shanghai East China Computer Co., Ltd.)",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CETC Digital Technology Co., Ltd. is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CETC Potevio Science & Technology Co., Ltd (formerly Guangzhou GCI Science & Technology Co., Ltd.)",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CETC Potevio Science & Technology Co., Ltd. is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "ChangXin Memory Technologies, Inc. (CXMT)",
+      "short_alias": "CXMT",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CXMT is directly affiliated with MIIT and indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Chengdu JOUAV Automation Tech Co., Ltd. (JOUAV)",
+      "short_alias": "JOUAV",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "JOUAV is directly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I)). JOUAV is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant;” it is affiliated with MIIT; it is affiliated with the PLA, and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i) and (v), and (g)(3)(E))."
+    },
+    {
+      "name": "Chengdu M&S Electronics Technology Co., Ltd. (M&S Electronics)",
+      "short_alias": "M&S Electronics",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "M&S Electronics is indirectly affiliated with SASAC and SASTIND (Section 1260H(g)(2)(B)(i)(I)). M&S Electronics is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "China Aerospace Science and Industry Corporation Limited (CASIC)",
+      "short_alias": "CASIC",
+      "subsidiary_count": 4,
+      "subsidiaries": [
+        "Addsino Co., Ltd.",
+        "Aerospace Precision Products Co., Ltd.",
+        "Aisino Corporation",
+        "China Aerospace Automotive Co., Ltd."
+      ],
+      "rationale": "CASIC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)). CASIC is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA and SASTIND (Sections 1260H(g)(3)(B)(iii) and (v))."
+    },
+    {
+      "name": "China Cargo Airlines Co., Ltd. (CCA)",
+      "short_alias": "CCA",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CCA is indirectly owned by SASAC and it is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Communications Construction Group (Limited) (CCCG)",
+      "short_alias": "CCCG",
+      "subsidiary_count": 12,
+      "subsidiaries": [
+        "CCCC Design and Consulting Group Co., Ltd.",
+        "CCCC First Harbor Engineering Bureau Co. Ltd.",
+        "CCCC Second Navigation Engineering Bureau Co., Ltd.",
+        "CCCC Third Navigation Engineering Bureau Co., Ltd.",
+        "China Airport Construction Group Corporation",
+        "China Communications Construction (USA) Co., Ltd.",
+        "China Communications Construction Company Limited (CCCC)",
+        "China Transportation Materials Co., Ltd.",
+        "John Holland Group Pty Ltd.",
+        "John Holland Services Pty Ltd.",
+        "Shanghai Zhenhua Shipping Co. Ltd.",
+        "ZPMC North America, Inc."
+      ],
+      "rationale": "CCCG is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Construction Technology Co., Ltd. (CCTC)",
+      "short_alias": "CCTC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CCTC is directly controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China COSCO SHIPPING Corporation Limited (COSCO SHIPPING)",
+      "short_alias": "COSCO SHIPPING",
+      "subsidiary_count": 4,
+      "subsidiaries": [
+        "China Ocean Shipping Company Ltd.",
+        "COSCO SHIPPING (North America) Inc.",
+        "COSCO SHIPPING Logistics Supply Chain Co., Ltd.",
+        "Shanghai Ship and Shipping Research"
+      ],
+      "rationale": "COSCO SHIPPING is directly owned and controlled by SASAC; it officially acts on behalf of the PLA; and it is indirectly affiliated with SASTIND (Section 1260H(g)(2)(B)(i)(I)). COSCO SHIPPING is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "China Electronics Corporation (CEC)",
+      "short_alias": "CEC",
+      "subsidiary_count": 4,
+      "subsidiaries": [
+        "China Information Security Research Institute",
+        "IRICO Group Company, Ltd.",
+        "Shenzhen CEC Blue Ocean Holdings Co., Ltd.",
+        "The 6th Research Institute of CEC"
+      ],
+      "rationale": "CEC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Electronics Technology Group Corporation (CETC)",
+      "short_alias": "CETC",
+      "subsidiary_count": 3,
+      "subsidiaries": [
+        "14th Research Institute of CETC",
+        "15th Research Institute of CETC",
+        "CETC Research Institute 32"
+      ],
+      "rationale": "CETC is directly owned and controlled by SASAC, is directly affiliated with MIIT and SASTIND and it is indirectly affiliated with MIITand the PLA (Section 1260H(g)(2)(B)(i)(I)). CETC is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT, SASTIND, and the PLA (Sections 1260H(g)(3)(B)(i), (iii), and (v))."
+    },
+    {
+      "name": "China General Nuclear Power Corporation (CGN)",
+      "short_alias": "CGN",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CGN is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China International Marine Containers (Group) Co., Ltd. (CIMC)",
+      "short_alias": "CIMC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CIMC is indirectly owned by SASAC and is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Mobile Communications Group Co., Ltd. (China Mobile Comm)",
+      "short_alias": "China Mobile Comm",
+      "subsidiary_count": 3,
+      "subsidiaries": [
+        "Aspire Technologies (Shenzhen) Limited",
+        "China Mobile Hong Kong (BVI) Limited",
+        "China Mobile Limited (China Mobile)"
+      ],
+      "rationale": "China Mobile Comm is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China National Chemical Corporation Ltd. (ChemChina)",
+      "short_alias": "ChemChina",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "ChemChina is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China National Chemical Engineering Group Corporation (CNCEC)",
+      "short_alias": "CNCEC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CNCEC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China National Nuclear Corporation (CNNC)",
+      "short_alias": "CNNC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CNNC is directly owned and controlled by SASAC and is affiliated with the PLA and SASTIND (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China National Offshore Oil Corporation (CNOOC)",
+      "short_alias": "CNOOC",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "China BlueChemical Limited"
+      ],
+      "rationale": "CNOOC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China North Industries Group Corporation Limited (Norinco Group)",
+      "short_alias": "Norinco Group",
+      "subsidiary_count": 8,
+      "subsidiaries": [
+        "China North Chemical Research Academy Group Co., Ltd.",
+        "Chinese Academy of Ordnance Science",
+        "Harbin First Machinery Group Ltd.",
+        "Inner Mongolia First Machinery Group Co., Ltd.",
+        "Kiekert USA Inc.",
+        "Merit Automotive Electronics Systems S.L.U",
+        "North Petroleum International Company Limited",
+        "Yunnan Yuanjin Optical Instrument Co., Ltd."
+      ],
+      "rationale": "Norinco Group is directly owned and controlled by SASAC and is directly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)). Norinco Group is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with SASAC (Section 1260H(g)(3)(B)(ii))."
+    },
+    {
+      "name": "China South Industries Group Corporation (CSGC)",
+      "short_alias": "CSGC",
+      "subsidiary_count": 6,
+      "subsidiaries": [
+        "Baoding Tianwei Baobian Electric Co., Ltd.",
+        "Beijing Beiji Mechanical and Electrical Industry Co., Ltd.",
+        "Changan US R&D Center, Inc.",
+        "China South Industries Group Corporation No. 59 Research Institute Co., Ltd.",
+        "Heilongjiang Northern Tools Co., Ltd.",
+        "Sichuan Jian’an Industry Co., Ltd."
+      ],
+      "rationale": "CSGC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China SpaceSat Co., Ltd. (China SpaceSat)",
+      "short_alias": "China SpaceSat",
+      "subsidiary_count": 3,
+      "subsidiaries": [
+        "Aerospace Star Space Technology Application Co., Ltd.",
+        "Oriental Blue Sky Titanium Technology Co., Ltd.",
+        "Xi’an Aerospace Tianhua Data Technology Co., Ltd."
+      ],
+      "rationale": "China SpaceSat is indirectly owned by SASAC and is indirectly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China State Construction Engineering Corporation Limited (CSCEC)",
+      "short_alias": "CSCEC",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "China Construction America, Inc."
+      ],
+      "rationale": "CSCEC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China State Shipbuilding Corporation Limited (CSSC)",
+      "short_alias": "CSSC",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "China Shipbuilding Trading Co., Ltd. (CSTC)"
+      ],
+      "rationale": "CSSC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Telecom Group Co., Ltd. (China Telecom)",
+      "short_alias": "China Telecom",
+      "subsidiary_count": 5,
+      "subsidiaries": [
+        "China Telecom Corporation Limited",
+        "China Telecom Satellite Communications Co., Ltd.",
+        "New Guomai Digital Culture Co., Ltd.",
+        "Tianyi Cloud Technology Co., Ltd.",
+        "Zhongjie Communications Co., Ltd."
+      ],
+      "rationale": "China Telecom is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China Three Gorges Corporation (CTG)",
+      "short_alias": "CTG",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CTG is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "China United Network Communications Group Co., Ltd. (China Unicom)",
+      "short_alias": "China Unicom",
+      "subsidiary_count": 5,
+      "subsidiaries": [
+        "Beijing Telecom Planning and Designing Institute Company Limited",
+        "China Unicom (BVI) Co., Ltd.",
+        "China Unicom (Hong Kong) Limited",
+        "China Unicom Group Corporation (BVI) Co., Ltd.",
+        "China United Network Communications Co., Ltd."
+      ],
+      "rationale": "China Unicom is directly controlled by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CloudWalk Technology Co., Ltd. (CloudWalk)",
+      "short_alias": "CloudWalk",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CloudWalk is indirectly owned by and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). CloudWalk is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Commercial Aircraft Corporation of China Limited (COMAC)",
+      "short_alias": "COMAC",
+      "subsidiary_count": 4,
+      "subsidiaries": [
+        "Beijing Aeronautical Science & Technology Research Institute",
+        "COMAC America Corporation",
+        "Shanghai Aircraft Design and Research Institute",
+        "Shanghai Aircraft Manufacturing Co., Ltd."
+      ],
+      "rationale": "COMAC is directly owned and controlled by SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Contemporary Amperex Technology Co., Ltd. (CATL)",
+      "short_alias": "CATL",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CATL is indirectly affiliated with MIIT and is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CRRC Corporation Limited (CRRC)",
+      "short_alias": "CRRC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "CRRC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "CSSC Offshore & Marine Engineering (Group) Company Limited (COMEC)",
+      "short_alias": "COMEC",
+      "subsidiary_count": 2,
+      "subsidiaries": [
+        "Guangzhou Wenchuan Heavy Industry Co., Ltd.",
+        "Huacheng (Tianjin) Ship Leasing Co., Ltd."
+      ],
+      "rationale": "COMEC is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Dawning Information Industry Co., Ltd. (Sugon)",
+      "short_alias": "Sugon",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Sugon is indirectly affiliated with MIIT, SASAC, and the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "EVE Energy Co., Ltd.",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "EVE Energy is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). EVE Energy is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives, through its selection as a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Global Tone Communication Technology Co., Ltd. (GTCOM)",
+      "short_alias": "GTCOM",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "GTCOM Technology Corporation (GTCOM-US)"
+      ],
+      "rationale": "GTCOM is indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I)). GTCOM is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Guizhou Aviation Technical Development Co., Ltd. (Guizhou Aviation Tech)",
+      "short_alias": "Guizhou Aviation Tech",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Guizhou Aviation Tech is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Guizhou Aviation Tech is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designations as a “Little Giant” and a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Hangzhou Hikvision Digital Technology Co., Ltd. (Hikvision)",
+      "short_alias": "Hikvision",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Hikvision is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)). Hikvision is a military-civil fusion contributor to the Chinese defense industrial base because it receives funding from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Hangzhou Yushu Technology Co., Ltd. (Unitree)",
+      "short_alias": "Unitree",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Unitree is indirectly owned by and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Unitree is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Hesai Group (also known as Hesai Technology Co., Ltd.)",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Hesai Group is directly affiliated with MIIT and is indirectly affiliated with SASAC of the State Council and the PLA (Section 1260H(g)(2)(B)(i)(I)). Hesai Group is a military- civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant;” it is affiliated with the MIIT; and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(E))."
+    },
+    {
+      "name": "Huawei Investment & Holding Co., Ltd. (Huawei Holding)",
+      "short_alias": "Huawei Holding",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "Huawei Technologies Co., Ltd. (Huawei)"
+      ],
+      "rationale": "Huawei Holding is indirectly affiliated with SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Inspur Group Co., Ltd. (Inspur)",
+      "short_alias": "Inspur",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Inspur is indirectly affiliated with MIIT and SASTIND (Section 1260H(g)(2)(B)(i)(I)). Inspur is a military-civil fusion contributor because it is affiliated with MIIT and SASAC (Sections 1260H(g)(3)(B)(i) and (g)(3)(B)(ii))."
+    },
+    {
+      "name": "JA Solar Technology Co., Ltd. (JA Solar)",
+      "short_alias": "JA Solar",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "JA Solar is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "MGI Tech Co., Ltd. (MGI)",
+      "short_alias": "MGI",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "MGI is directly affiliated with MIIT and indirectly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)). MGI is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i))."
+    },
+    {
+      "name": "NetPosa Technologies, Ltd. (NetPosa)",
+      "short_alias": "NetPosa",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "NetPosa is directly and indirectly affiliated with the Chinese security forces and it is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "NIO, Inc.",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "NIO is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). NIO is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i))."
+    },
+    {
+      "name": "Novogene Company Limited (Novogene)",
+      "short_alias": "Novogene",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Novogene is indirectly owned by SASAC and is indirectly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Origincell Technology Co., Ltd. (Origincell)",
+      "short_alias": "Origincell",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Origincell is indirectly affiliated with MIIT, SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Phenix Optical Company Limited (formerly Phoenix Optics Company Limited)",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Phenix Optical Company Limited is directly controlled by SASAC and is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Quectel Wireless Solutions Co., Ltd.",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Quectel is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Robosense Technology Co., Ltd.",
+      "short_alias": null,
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "RoboSense is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA (Section 1260H(g)(3)(B)(v))."
+    },
+    {
+      "name": "SDIC Intelligence (Xiamen) Information Co., Ltd.",
+      "short_alias": null,
+      "subsidiary_count": 2,
+      "subsidiaries": [
+        "Beijing Meiya Hongshu Technology Co., Ltd.",
+        "Xiamen Meiya Zhongmin Electronic Technology Co., Ltd."
+      ],
+      "rationale": "SDIC Intelligence is indirectly owned and controlled by SASAC and is indirectly affiliated with Chinese security forces, Chinese law enforcement, and MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Semiconductor Manufacturing International Corporation (SMIC)",
+      "short_alias": "SMIC",
+      "subsidiary_count": 12,
+      "subsidiaries": [
+        "Better Way Enterprises Limited",
+        "China IC Capital Co., Ltd.",
+        "Magnificent Tower Limited",
+        "Semiconductor Manufacturing International (Beijing) Corporation (SMIC Beijing)",
+        "Semiconductor Manufacturing International (Shenzhen) Corporation (SMIC Shenzhen)",
+        "Semiconductor Manufacturing International (Tianjin) Corporation (SMIC Tianjin)",
+        "Semiconductor Manufacturing North China (Beijing) Corporation",
+        "Semiconductor Manufacturing South China Corporation (SMIC South China)",
+        "SilTech Semiconductor Corporation",
+        "SMIC Holdings Limited (SMIC Holdings)",
+        "SMIC Semiconductor Manufacturing (Shanghai) Co., Ltd (SMIC Shanghai)",
+        "SMIC, Americas"
+      ],
+      "rationale": "SMIC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "SenseTime Group, Inc. (SenseTime)",
+      "short_alias": "SenseTime",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "SenseTime is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). SenseTime is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i))."
+    },
+    {
+      "name": "Shanghai Yitu Network Technology Co., Ltd. (Yitu)",
+      "short_alias": "Yitu",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Yitu is indirectly owned by SASAC and is indirectly affiliated with MIIT, SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Shenzhen DJI Technology Co., Ltd. (DJI)",
+      "short_alias": "DJI",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "Shenzhen Dajiang Baiwang Technology Co., Ltd."
+      ],
+      "rationale": "DJI is indirectly affiliated with SASAC and is directly affiliated with MIIT and the People’s Armed Police (PAP) (Section 1260H(g)(2)(B)(i)(I)). DJI is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives through multiple designations, such as a “Single Champion” designation; it is affiliated with MIIT, and it resides in or is affiliated with a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(E))."
+    },
+    {
+      "name": "Sinotrans & CSC Holdings Co., Ltd. (SinoTrans)",
+      "short_alias": "SinoTrans",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Sinotrans is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Tencent Holdings Limited (Tencent)",
+      "short_alias": "Tencent",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Tencent is indirectly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Tianma Microelectronics Co., Ltd. (Tianma)",
+      "short_alias": "Tianma",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Tianma is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)). Tianma is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "TP-Link Technologies Co., Ltd. (TP-Link)",
+      "short_alias": "TP-Link",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "TP-Link is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)). TP-Link is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A))."
+    },
+    {
+      "name": "Trina Solar Co., Ltd. (Trina Solar)",
+      "short_alias": "Trina Solar",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "TrinaSolar is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). TrinaSolar is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance through science, technology, research or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A) and (g)(3)(E))."
+    },
+    {
+      "name": "Wuhan Geosun Navigation Technology Co., Ltd. (Geosun)",
+      "short_alias": "Geosun",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "Geosun is indirectly affiliated with SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I)). Geosun is a military civil fusion contributor to the Chinese defense industrial base because it received a military production license (Section 1260H(g)(3)(F))."
+    },
+    {
+      "name": "WuXi AppTec Co., Ltd. (WuXi AppTec)",
+      "short_alias": "WuXi AppTec",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "WuXi AppTec is indirectly owned by SASAC and is indirectly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Yangtze Memory Technologies Co., Ltd. (YMTC)",
+      "short_alias": "YMTC",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "YMTC is indirectly owned by SASAC and is indirectly affiliated with MIIT and SASTIND (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Zhejiang Dahua Technology Co., Ltd. (Dahua)",
+      "short_alias": "Dahua",
+      "subsidiary_count": 1,
+      "subsidiaries": [
+        "Chengdu Dahua Wisdom Information Technology Co., Ltd."
+      ],
+      "rationale": "Dahua is indirectly owned by SASAC and is directly and indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    },
+    {
+      "name": "Zhongji Innolight Co., Ltd. (Innolight)",
+      "short_alias": "Innolight",
+      "subsidiary_count": 0,
+      "subsidiaries": [],
+      "rationale": "InnoLight is indirectly owned by SASAC and directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I))."
+    }
+  ],
+  "delisted_entities": [
+    "Anhui Sun Create Electronics Co., Ltd.",
+    "China International Information Services Ltd.",
+    "China National Chemical Engineering Co., Ltd.",
+    "China Traffic Construction USA, Inc.",
+    "CNOOC China Limited (CNOOC China Ltd.)",
+    "CNOOC International Trading Co., Ltd. (CNOOC International Trading)",
+    "COSCO SHIPPING Finance Co., Ltd.",
+    "Costar Group Co., Ltd. (Costar)",
+    "GLARUN Technology Co., Ltd.",
+    "Taiji Computer Co., Ltd."
+  ]
+}

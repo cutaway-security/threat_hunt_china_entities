@@ -1,0 +1,206 @@
+# 1260H Entity Manifest (auditable) — verified against the June 8 2026 PDF
+# Counts: parents=80 subsidiaries=108 delisted=10
+
+## PARENTS (80)
+ 1. 360 Security Technology Inc. (Qihoo 360)
+ 2. Aerospace CH UAV Co., Ltd (CH UAV)
+ 3. Aerosun Corporation (Aerosun)
+ 4. Alibaba Group Holding Limited (Alibaba)
+ 5. Autel Intelligent Technology Corp., Ltd. (Autel Technology)
+ 6. Autel Robotics Co., Ltd. (Autel Robotics)
+ 7. Aviation Industry Corporation of China Ltd. (AVIC)
+ 8. BGI Group
+ 9. BOE Technology Group Company Limited (BOE)
+10. BYD Company Limited (BYD)
+11. Baicells Technologies Co., Ltd. (Baicells)
+12. Baidu, Inc. (Baidu)
+13. Beijing Zhidao Chuangyu Information Technology Co., Ltd. (Knownsec)
+14. CALB Group Co., Ltd. (CALB)
+15. CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)
+16. CETC Digital Technology Co., Ltd. (formerly Shanghai East China Computer Co., Ltd.)
+17. CETC Potevio Science & Technology Co., Ltd (formerly Guangzhou GCI Science & Technology Co., Ltd.)
+18. CRRC Corporation Limited (CRRC)
+19. CSSC Offshore & Marine Engineering (Group) Company Limited (COMEC)
+20. ChangXin Memory Technologies, Inc. (CXMT)
+21. Chengdu JOUAV Automation Tech Co., Ltd. (JOUAV)
+22. Chengdu M&S Electronics Technology Co., Ltd. (M&S Electronics)
+23. China Aerospace Science and Industry Corporation Limited (CASIC)
+24. China COSCO SHIPPING Corporation Limited (COSCO SHIPPING)
+25. China Cargo Airlines Co., Ltd. (CCA)
+26. China Communications Construction Group (Limited) (CCCG)
+27. China Construction Technology Co., Ltd. (CCTC)
+28. China Electronics Corporation (CEC)
+29. China Electronics Technology Group Corporation (CETC)
+30. China General Nuclear Power Corporation (CGN)
+31. China International Marine Containers (Group) Co., Ltd. (CIMC)
+32. China Mobile Communications Group Co., Ltd. (China Mobile Comm)
+33. China National Chemical Corporation Ltd. (ChemChina)
+34. China National Chemical Engineering Group Corporation (CNCEC)
+35. China National Nuclear Corporation (CNNC)
+36. China National Offshore Oil Corporation (CNOOC)
+37. China North Industries Group Corporation Limited (Norinco Group)
+38. China South Industries Group Corporation (CSGC)
+39. China SpaceSat Co., Ltd. (China SpaceSat)
+40. China State Construction Engineering Corporation Limited (CSCEC)
+41. China State Shipbuilding Corporation Limited (CSSC)
+42. China Telecom Group Co., Ltd. (China Telecom)
+43. China Three Gorges Corporation (CTG)
+44. China United Network Communications Group Co., Ltd. (China Unicom)
+45. CloudWalk Technology Co., Ltd. (CloudWalk)
+46. Commercial Aircraft Corporation of China Limited (COMAC)
+47. Contemporary Amperex Technology Co., Ltd. (CATL)
+48. Dawning Information Industry Co., Ltd. (Sugon)
+49. EVE Energy Co., Ltd.
+50. Global Tone Communication Technology Co., Ltd. (GTCOM)
+51. Guizhou Aviation Technical Development Co., Ltd. (Guizhou Aviation Tech)
+52. Hangzhou Hikvision Digital Technology Co., Ltd. (Hikvision)
+53. Hangzhou Yushu Technology Co., Ltd. (Unitree)
+54. Hesai Group (also known as Hesai Technology Co., Ltd.)
+55. Huawei Investment & Holding Co., Ltd. (Huawei Holding)
+56. Inspur Group Co., Ltd. (Inspur)
+57. JA Solar Technology Co., Ltd. (JA Solar)
+58. MGI Tech Co., Ltd. (MGI)
+59. NIO, Inc.
+60. NetPosa Technologies, Ltd. (NetPosa)
+61. Novogene Company Limited (Novogene)
+62. Origincell Technology Co., Ltd. (Origincell)
+63. Phenix Optical Company Limited (formerly Phoenix Optics Company Limited)
+64. Quectel Wireless Solutions Co., Ltd.
+65. Robosense Technology Co., Ltd.
+66. SDIC Intelligence (Xiamen) Information Co., Ltd.
+67. Semiconductor Manufacturing International Corporation (SMIC)
+68. SenseTime Group, Inc. (SenseTime)
+69. Shanghai Yitu Network Technology Co., Ltd. (Yitu)
+70. Shenzhen DJI Technology Co., Ltd. (DJI)
+71. Sinotrans & CSC Holdings Co., Ltd. (SinoTrans)
+72. TP-Link Technologies Co., Ltd. (TP-Link)
+73. Tencent Holdings Limited (Tencent)
+74. Tianma Microelectronics Co., Ltd. (Tianma)
+75. Trina Solar Co., Ltd. (Trina Solar)
+76. WuXi AppTec Co., Ltd. (WuXi AppTec)
+77. Wuhan Geosun Navigation Technology Co., Ltd. (Geosun)
+78. Yangtze Memory Technologies Co., Ltd. (YMTC)
+79. Zhejiang Dahua Technology Co., Ltd. (Dahua)
+80. Zhongji Innolight Co., Ltd. (Innolight)
+
+## SUBSIDIARIES (108)
+  1. [Aviation Industry Corporation of China Ltd.] AVIC Aerospace Systems Co., Ltd.
+  2. [Aviation Industry Corporation of China Ltd.] AVIC Airborne Systems Co., Ltd.
+  3. [Aviation Industry Corporation of China Ltd.] AVIC Asset Management Corporation Ltd.
+  4. [Aviation Industry Corporation of China Ltd.] AVIC Aviation High-Technology Company Limited (AVIC Aviation Hi-Tech)
+  5. [Aviation Industry Corporation of China Ltd.] AVIC Chengdu Aircraft Co., Ltd. (formerly Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC))
+  6. [Aviation Industry Corporation of China Ltd.] AVIC Electromechanical Systems Co. Ltd.
+  7. [Aviation Industry Corporation of China Ltd.] AVIC Heavy Machinery Company Limited (AVIC Heavy Machinery)
+  8. [Aviation Industry Corporation of China Ltd.] AVIC JONHON Optronic Technology Co., Ltd. (AVIC Jonhon)
+  9. [Aviation Industry Corporation of China Ltd.] AVIC Shenyang Aircraft Company Limited (AVIC Shenyang)
+ 10. [Aviation Industry Corporation of China Ltd.] AVIC Xi’an Aircraft Industry Group Company Ltd. (formerly Xi’an Aircraft Industry Group Co., Ltd.)
+ 11. [Aviation Industry Corporation of China Ltd.] Align Aerospace LLC
+ 12. [Aviation Industry Corporation of China Ltd.] Avicopter PLC
+ 13. [Aviation Industry Corporation of China Ltd.] Changhe Aircraft Industries (Group) Co., Ltd.
+ 14. [Aviation Industry Corporation of China Ltd.] Cirrus Design Corporation
+ 15. [Aviation Industry Corporation of China Ltd.] Continental Aerospace Technologies, Inc.
+ 16. [Aviation Industry Corporation of China Ltd.] Jiangxi Hongdu Aviation Industry Co., Ltd. (Hongdu Aviation)
+ 17. [Aviation Industry Corporation of China Ltd.] Shenyang Aircraft Design Institute
+ 18. [BGI Group] BGI Americas Corporation
+ 19. [BGI Group] BGI Genomics Co., Ltd. (BGI)
+ 20. [BGI Group] Complete Genomics, Inc.
+ 21. [BGI Group] Forensic Genomics International (FGI)
+ 22. [BGI Group] GBI Diagnostics, Inc.
+ 23. [BGI Group] Innomics Inc.
+ 24. [BGI Group] STOmics Americas Ltd.
+ 25. [CSSC Offshore & Marine Engineering] Guangzhou Wenchuan Heavy Industry Co., Ltd.
+ 26. [CSSC Offshore & Marine Engineering] Huacheng (Tianjin) Ship Leasing Co., Ltd.
+ 27. [China Aerospace Science and Industry Corporation Limited] Addsino Co., Ltd.
+ 28. [China Aerospace Science and Industry Corporation Limited] Aerospace Precision Products Co., Ltd.
+ 29. [China Aerospace Science and Industry Corporation Limited] Aisino Corporation
+ 30. [China Aerospace Science and Industry Corporation Limited] China Aerospace Automotive Co., Ltd.
+ 31. [China COSCO SHIPPING Corporation Limited] COSCO SHIPPING (North America) Inc.
+ 32. [China COSCO SHIPPING Corporation Limited] COSCO SHIPPING Logistics Supply Chain Co., Ltd.
+ 33. [China COSCO SHIPPING Corporation Limited] China Ocean Shipping Company Ltd.
+ 34. [China COSCO SHIPPING Corporation Limited] Shanghai Ship and Shipping Research
+ 35. [China Communications Construction Group] CCCC Design and Consulting Group Co., Ltd.
+ 36. [China Communications Construction Group] CCCC First Harbor Engineering Bureau Co. Ltd.
+ 37. [China Communications Construction Group] CCCC Second Navigation Engineering Bureau Co., Ltd.
+ 38. [China Communications Construction Group] CCCC Third Navigation Engineering Bureau Co., Ltd.
+ 39. [China Communications Construction Group] China Airport Construction Group Corporation
+ 40. [China Communications Construction Group] China Communications Construction (USA) Co., Ltd.
+ 41. [China Communications Construction Group] China Communications Construction Company Limited (CCCC)
+ 42. [China Communications Construction Group] China Transportation Materials Co., Ltd.
+ 43. [China Communications Construction Group] John Holland Group Pty Ltd.
+ 44. [China Communications Construction Group] John Holland Services Pty Ltd.
+ 45. [China Communications Construction Group] Shanghai Zhenhua Shipping Co. Ltd.
+ 46. [China Communications Construction Group] ZPMC North America, Inc.
+ 47. [China Electronics Corporation] China Information Security Research Institute
+ 48. [China Electronics Corporation] IRICO Group Company, Ltd.
+ 49. [China Electronics Corporation] Shenzhen CEC Blue Ocean Holdings Co., Ltd.
+ 50. [China Electronics Corporation] The 6th Research Institute of CEC
+ 51. [China Electronics Technology Group Corporation] 14th Research Institute of CETC
+ 52. [China Electronics Technology Group Corporation] 15th Research Institute of CETC
+ 53. [China Electronics Technology Group Corporation] CETC Research Institute 32
+ 54. [China Mobile Communications Group Co., Ltd.] Aspire Technologies (Shenzhen) Limited
+ 55. [China Mobile Communications Group Co., Ltd.] China Mobile Hong Kong (BVI) Limited
+ 56. [China Mobile Communications Group Co., Ltd.] China Mobile Limited (China Mobile)
+ 57. [China National Offshore Oil Corporation] China BlueChemical Limited
+ 58. [China North Industries Group Corporation Limited] China North Chemical Research Academy Group Co., Ltd.
+ 59. [China North Industries Group Corporation Limited] Chinese Academy of Ordnance Science
+ 60. [China North Industries Group Corporation Limited] Harbin First Machinery Group Ltd.
+ 61. [China North Industries Group Corporation Limited] Inner Mongolia First Machinery Group Co., Ltd.
+ 62. [China North Industries Group Corporation Limited] Kiekert USA Inc.
+ 63. [China North Industries Group Corporation Limited] Merit Automotive Electronics Systems S.L.U
+ 64. [China North Industries Group Corporation Limited] North Petroleum International Company Limited
+ 65. [China North Industries Group Corporation Limited] Yunnan Yuanjin Optical Instrument Co., Ltd.
+ 66. [China South Industries Group Corporation] Baoding Tianwei Baobian Electric Co., Ltd.
+ 67. [China South Industries Group Corporation] Beijing Beiji Mechanical and Electrical Industry Co., Ltd.
+ 68. [China South Industries Group Corporation] Changan US R&D Center, Inc.
+ 69. [China South Industries Group Corporation] China South Industries Group Corporation No. 59 Research Institute Co., Ltd.
+ 70. [China South Industries Group Corporation] Heilongjiang Northern Tools Co., Ltd.
+ 71. [China South Industries Group Corporation] Sichuan Jian’an Industry Co., Ltd.
+ 72. [China SpaceSat Co., Ltd.] Aerospace Star Space Technology Application Co., Ltd.
+ 73. [China SpaceSat Co., Ltd.] Oriental Blue Sky Titanium Technology Co., Ltd.
+ 74. [China SpaceSat Co., Ltd.] Xi’an Aerospace Tianhua Data Technology Co., Ltd.
+ 75. [China State Construction Engineering Corporation Limited] China Construction America, Inc.
+ 76. [China State Shipbuilding Corporation Limited] China Shipbuilding Trading Co., Ltd. (CSTC)
+ 77. [China Telecom Group Co., Ltd.] China Telecom Corporation Limited
+ 78. [China Telecom Group Co., Ltd.] China Telecom Satellite Communications Co., Ltd.
+ 79. [China Telecom Group Co., Ltd.] New Guomai Digital Culture Co., Ltd.
+ 80. [China Telecom Group Co., Ltd.] Tianyi Cloud Technology Co., Ltd.
+ 81. [China Telecom Group Co., Ltd.] Zhongjie Communications Co., Ltd.
+ 82. [China United Network Communications Group Co., Ltd.] Beijing Telecom Planning and Designing Institute Company Limited
+ 83. [China United Network Communications Group Co., Ltd.] China Unicom (BVI) Co., Ltd.
+ 84. [China United Network Communications Group Co., Ltd.] China Unicom (Hong Kong) Limited
+ 85. [China United Network Communications Group Co., Ltd.] China Unicom Group Corporation (BVI) Co., Ltd.
+ 86. [China United Network Communications Group Co., Ltd.] China United Network Communications Co., Ltd.
+ 87. [Commercial Aircraft Corporation of China Limited] Beijing Aeronautical Science & Technology Research Institute
+ 88. [Commercial Aircraft Corporation of China Limited] COMAC America Corporation
+ 89. [Commercial Aircraft Corporation of China Limited] Shanghai Aircraft Design and Research Institute
+ 90. [Commercial Aircraft Corporation of China Limited] Shanghai Aircraft Manufacturing Co., Ltd.
+ 91. [Global Tone Communication Technology Co., Ltd.] GTCOM Technology Corporation (GTCOM-US)
+ 92. [Huawei Investment & Holding Co., Ltd.] Huawei Technologies Co., Ltd. (Huawei)
+ 93. [SDIC Intelligence] Beijing Meiya Hongshu Technology Co., Ltd.
+ 94. [SDIC Intelligence] Xiamen Meiya Zhongmin Electronic Technology Co., Ltd.
+ 95. [Semiconductor Manufacturing International Corporation] Better Way Enterprises Limited
+ 96. [Semiconductor Manufacturing International Corporation] China IC Capital Co., Ltd.
+ 97. [Semiconductor Manufacturing International Corporation] Magnificent Tower Limited
+ 98. [Semiconductor Manufacturing International Corporation] SMIC Holdings Limited (SMIC Holdings)
+ 99. [Semiconductor Manufacturing International Corporation] SMIC Semiconductor Manufacturing (Shanghai) Co., Ltd (SMIC Shanghai)
+100. [Semiconductor Manufacturing International Corporation] SMIC, Americas
+101. [Semiconductor Manufacturing International Corporation] Semiconductor Manufacturing International (Beijing) Corporation (SMIC Beijing)
+102. [Semiconductor Manufacturing International Corporation] Semiconductor Manufacturing International (Shenzhen) Corporation (SMIC Shenzhen)
+103. [Semiconductor Manufacturing International Corporation] Semiconductor Manufacturing International (Tianjin) Corporation (SMIC Tianjin)
+104. [Semiconductor Manufacturing International Corporation] Semiconductor Manufacturing North China (Beijing) Corporation
+105. [Semiconductor Manufacturing International Corporation] Semiconductor Manufacturing South China Corporation (SMIC South China)
+106. [Semiconductor Manufacturing International Corporation] SilTech Semiconductor Corporation
+107. [Shenzhen DJI Technology Co., Ltd.] Shenzhen Dajiang Baiwang Technology Co., Ltd.
+108. [Zhejiang Dahua Technology Co., Ltd.] Chengdu Dahua Wisdom Information Technology Co., Ltd.
+
+## DELISTED (10)
+ 1. Anhui Sun Create Electronics Co., Ltd.
+ 2. CNOOC China Limited (CNOOC China Ltd.)
+ 3. CNOOC International Trading Co., Ltd. (CNOOC International Trading)
+ 4. COSCO SHIPPING Finance Co., Ltd.
+ 5. China International Information Services Ltd.
+ 6. China National Chemical Engineering Co., Ltd.
+ 7. China Traffic Construction USA, Inc.
+ 8. Costar Group Co., Ltd. (Costar)
+ 9. GLARUN Technology Co., Ltd.
+10. Taiji Computer Co., Ltd.
