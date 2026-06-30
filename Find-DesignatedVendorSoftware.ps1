@@ -1,4 +1,4 @@
-<#
+﻿<#
 .SYNOPSIS
     Sweep installed software for vendors on the U.S. DoD Section 1260H list (Cutaway Security).
 
