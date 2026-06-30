@@ -14,7 +14,7 @@ AI-assisted, best-effort. Source: DoD Section 1260H list dated 2026-06-08. This 
 | indicators_identified | 1 |
 | **Total** | **80** |
 
-**Software products catalogued:** 60 (41 verified vendor-official, 11 reported third-party, 8 candidate). Verified/reported are usable now; candidates need confirmation.
+**Software products catalogued:** 59 (40 verified vendor-official, 11 reported third-party, 8 candidate). Verified/reported are usable now; candidates need confirmation.
 
 ## Vendors with confirmed installable Windows software
 
@@ -29,17 +29,16 @@ These vendors publish Windows software (vendor-official = verified; third-party 
 | Autel Technology | MaxiScope | PC oscilloscope software | verified | <https://autel.us/software-downloads/> |
 | Autel Technology | DS708 PC Suite | MaxiDAS DS708 update suite | verified | <https://autel.us/software-downloads/> |
 | Baidu | Baidu Netdisk | Cloud-storage desktop client | reported | <https://wingetgui.com/apps/Baidu-BaiduNetdisk> |
-| Knownsec | ZoomEye-python | CLI/SDK (pip; cross-platform incl. Windows) | verified | <https://github.com/knownsec/ZoomEye-python> |
+| Knownsec | ZoomEye-python | cross-platform Python CLI/SDK via pip (runs on Windows; NOT a standalone Windows installer) | verified | <https://github.com/knownsec/ZoomEye-python> |
 | China Telecom | Cloud 189 PC client | Cloud-storage desktop client | verified | <https://cloud.189.cn/web/static/download-client/index.html> |
 | China Telecom | eCloud Computer | Cloud-desktop client | reported | <https://apps.microsoft.com/detail/xpdnk2982gqmxt> |
 | GTCOM | YeeKit Word Translation Plug-in | MS Word translation client (C/S) | verified | <https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25> |
 | GTCOM | YeeCaption | Audio/video translation desktop software | verified | <https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25> |
 | Hikvision | iVMS-4200 | Video-management client (VMS) | verified | <https://www.hikvision.com/us-en/support/download/software/ivms4200-series/> |
-| Hikvision | HikCentral Professional | Video surveillance management software | verified | <https://us.hikvision.com/en/products/software/ivms-4200-series/free-client-software-hikvision-devices-ivms-4200-windows> |
+| Hikvision | HikCentral Professional | Video surveillance management software (Windows) | verified | <https://www.hikvision.com/us-en/support/download/software/> |
 | Hikvision | SADP Tool | Device search/activation utility | verified | <https://www.hikvision.com/us-en/support/download/software/> |
 | Hikvision | Batch Configuration Tool | Device batch-configuration utility | verified | <https://www.hikvision.com/us-en/support/download/software/> |
-| Unitree | Unilidar 2 | 4D LiDAR point-cloud visualization (Win64) | verified | <https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf> |
-| Unitree | unilidar_sdk | LiDAR SDK | verified | <https://github.com/unitreerobotics/unilidar_sdk> |
+| Unitree | Unilidar 2 | 4D LiDAR point-cloud visualization desktop app (Win64; OS per vendor manual, corroborated via search) | verified | <https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf> |
 | Hesai Group (also known as Hesai Technology Co., Ltd.) | PandarView 2 | Point-cloud visualization desktop app | verified | <https://www.hesaitech.com/product_downloads/pandarview-2/> |
 | Hesai Group (also known as Hesai Technology Co., Ltd.) | LidarUtilities | Device configuration utilities (Win64) | verified | <https://www.hesaitech.com/downloads/> |
 | Huawei Holding | HUAWEI PC Manager | PC management / device-collaboration app | verified | <https://consumer.huawei.com/en/support/pc-manager/> |
@@ -56,10 +55,10 @@ These vendors publish Windows software (vendor-official = verified; third-party 
 | DJI | DJI Thermal Analysis Tool 3 | Thermal image analysis tool | verified | <https://www.dji.com/downloads/softwares/dji-dtat3> |
 | TP-Link | Omada Software Controller | On-prem network management console | verified | <https://support.omadanetworks.com/us/download/software/omada-controller/> |
 | TP-Link | Pharos Control | Centralized network management software | verified | <https://www.tp-link.com/us/support/download/pharos-control/> |
-| Geosun | GNSS Explorer | GNSS post-processing software | verified | <https://en.geosuntech.com/> |
-| Geosun | Shuttle | GNSS/INS trajectory post-processing | verified | <https://en.geosuntech.com/> |
-| Geosun | PointCloudCreater | Point-cloud preprocessing | verified | <https://en.geosuntech.com/> |
-| Geosun | WaypointMaster | UAV flight planning | verified | <https://en.geosuntech.com/> |
+| Geosun | GNSS Explorer | GNSS post-processing (desktop; Windows implied, OS not stated on vendor page) | verified | <https://en.geosuntech.com/> |
+| Geosun | Shuttle | GNSS/INS trajectory post-processing (desktop; Windows implied, OS not stated) | verified | <https://en.geosuntech.com/> |
+| Geosun | PointCloudCreater | Point-cloud preprocessing (desktop; Windows implied, OS not stated) | verified | <https://en.geosuntech.com/> |
+| Geosun | WaypointMaster | UAV flight planning (desktop; Windows implied, OS not stated) | verified | <https://en.geosuntech.com/> |
 | YMTC | ZHITAI UNIMASTER SSD | SSD management/monitoring utility | verified | <https://www.ymtc.com/cn/techsupport.html> |
 | YMTC | ZHITAI UNIMASTER PSSD | Portable SSD management utility | verified | <https://www.ymtc.com/cn/techsupport.html> |
 | YMTC | PSSD AESTool | Portable SSD encryption utility | verified | <https://www.ymtc.com/cn/techsupport.html> |
@@ -107,7 +106,7 @@ Confidence tiers: **VERIFIED** = vendor-official + a second independent source f
 | Tencent | WeChat for Windows | FILE_NAME | `WeChatSetup.exe` | VERIFIED |
 | Tencent | QQ for Windows | REGISTRY_KEY | `HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{052CFB79-9D62-42E3-8A15-DE66C2C97C3E}` | CORROBORATED |
 
-**2 verified/corroborated detector(s)** attached so far, across 60 catalogued products. Coverage is deliberately not claimed.
+**2 verified/corroborated detector(s)** attached so far, across 59 catalogued products. Coverage is deliberately not claimed.
 
 ## Vendors assessed as producing no installable Windows software
 

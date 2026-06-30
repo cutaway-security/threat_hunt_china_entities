@@ -253,7 +253,7 @@
           "software_id": "S0008",
           "name": "ZoomEye-python",
           "vendor_company_id": "C0010",
-          "category": "CLI/SDK (pip; cross-platform incl. Windows)",
+          "category": "cross-platform Python CLI/SDK via pip (runs on Windows; NOT a standalone Windows installer)",
           "windows_installable": true,
           "catalog_status": "verified",
           "source_url": "https://github.com/knownsec/ZoomEye-python",
@@ -1102,10 +1102,10 @@
           "software_id": "S0019",
           "name": "HikCentral Professional",
           "vendor_company_id": "C0052",
-          "category": "Video surveillance management software",
+          "category": "Video surveillance management software (Windows)",
           "windows_installable": true,
           "catalog_status": "verified",
-          "source_url": "https://us.hikvision.com/en/products/software/ivms-4200-series/free-client-software-hikvision-devices-ivms-4200-windows",
+          "source_url": "https://www.hikvision.com/us-en/support/download/software/",
           "indicators": []
         },
         {
@@ -1137,26 +1137,16 @@
       "affiliation_rationale": "Unitree is indirectly owned by and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Unitree is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
       "subsidiaries": [],
       "disposition": "software_no_verified_indicators",
-      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
           "software_id": "S0022",
           "name": "Unilidar 2",
           "vendor_company_id": "C0053",
-          "category": "4D LiDAR point-cloud visualization (Win64)",
+          "category": "4D LiDAR point-cloud visualization desktop app (Win64; OS per vendor manual, corroborated via search)",
           "windows_installable": true,
           "catalog_status": "verified",
           "source_url": "https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf",
-          "indicators": []
-        },
-        {
-          "software_id": "S0023",
-          "name": "unilidar_sdk",
-          "vendor_company_id": "C0053",
-          "category": "LiDAR SDK",
-          "windows_installable": true,
-          "catalog_status": "verified",
-          "source_url": "https://github.com/unitreerobotics/unilidar_sdk",
           "indicators": []
         }
       ]
@@ -1171,7 +1161,7 @@
       "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0024",
+          "software_id": "S0023",
           "name": "PandarView 2",
           "vendor_company_id": "C0054",
           "category": "Point-cloud visualization desktop app",
@@ -1181,7 +1171,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0025",
+          "software_id": "S0024",
           "name": "LidarUtilities",
           "vendor_company_id": "C0054",
           "category": "Device configuration utilities (Win64)",
@@ -1207,7 +1197,7 @@
       "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0026",
+          "software_id": "S0025",
           "name": "HUAWEI PC Manager",
           "vendor_company_id": "C0055",
           "category": "PC management / device-collaboration app",
@@ -1217,7 +1207,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0027",
+          "software_id": "S0026",
           "name": "HUAWEI HiSuite",
           "vendor_company_id": "C0055",
           "category": "Phone/PC suite (backup, data management)",
@@ -1227,7 +1217,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0028",
+          "software_id": "S0027",
           "name": "eNSP / eNSP Pro",
           "vendor_company_id": "C0055",
           "category": "Enterprise network simulation platform",
@@ -1248,7 +1238,7 @@
       "disposition_justification": "Assessed: no confirmed installable Windows software.",
       "software": [
         {
-          "software_id": "S0029",
+          "software_id": "S0028",
           "name": "InspurDiagLogCollect-Win",
           "vendor_company_id": "C0056",
           "category": "Server diagnostic/log-collection client tool",
@@ -1329,7 +1319,7 @@
       "disposition_justification": "Assessed: no confirmed installable Windows software.",
       "software": [
         {
-          "software_id": "S0030",
+          "software_id": "S0029",
           "name": "Phenix microscope imaging software",
           "vendor_company_id": "C0063",
           "category": "Microscope imaging/measurement (bundled)",
@@ -1339,7 +1329,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0031",
+          "software_id": "S0030",
           "name": "Phenix ME200 digital-microscope driver",
           "vendor_company_id": "C0063",
           "category": "Windows device driver",
@@ -1360,7 +1350,7 @@
       "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0032",
+          "software_id": "S0031",
           "name": "Quectel Windows USB Driver",
           "vendor_company_id": "C0064",
           "category": "Windows USB device driver (NDIS/ECM/RNDIS)",
@@ -1370,7 +1360,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0033",
+          "software_id": "S0032",
           "name": "QNavigator",
           "vendor_company_id": "C0064",
           "category": "Module test / AT-command GUI tool",
@@ -1380,7 +1370,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0034",
+          "software_id": "S0033",
           "name": "QCOM",
           "vendor_company_id": "C0064",
           "category": "Serial / AT-command terminal tool",
@@ -1390,7 +1380,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0035",
+          "software_id": "S0034",
           "name": "QFlash",
           "vendor_company_id": "C0064",
           "category": "Firmware flashing utility",
@@ -1411,7 +1401,7 @@
       "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0036",
+          "software_id": "S0035",
           "name": "RSView",
           "vendor_company_id": "C0065",
           "category": "LiDAR point-cloud visualization / config app",
@@ -1441,7 +1431,7 @@
       "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0037",
+          "software_id": "S0036",
           "name": "Forensics Master",
           "vendor_company_id": "C0066",
           "category": "Digital forensic analysis software",
@@ -1546,7 +1536,7 @@
       "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0038",
+          "software_id": "S0037",
           "name": "DJI Assistant 2",
           "vendor_company_id": "C0070",
           "category": "Drone firmware / calibration tool",
@@ -1556,7 +1546,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0039",
+          "software_id": "S0038",
           "name": "DJI Terra",
           "vendor_company_id": "C0070",
           "category": "Photogrammetry / mapping app (Windows-only)",
@@ -1566,7 +1556,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0040",
+          "software_id": "S0039",
           "name": "DJI Thermal Analysis Tool 3",
           "vendor_company_id": "C0070",
           "category": "Thermal image analysis tool",
@@ -1597,7 +1587,7 @@
       "disposition_justification": "At least one host-artifact detector verified for Tencent software (see verification log).",
       "software": [
         {
-          "software_id": "S0041",
+          "software_id": "S0040",
           "name": "WeChat for Windows",
           "vendor_company_id": "C0072",
           "category": "Messaging client",
@@ -1633,7 +1623,7 @@
           ]
         },
         {
-          "software_id": "S0042",
+          "software_id": "S0041",
           "name": "QQ for Windows",
           "vendor_company_id": "C0072",
           "category": "Messaging client",
@@ -1662,7 +1652,7 @@
           ]
         },
         {
-          "software_id": "S0043",
+          "software_id": "S0042",
           "name": "Tencent Meeting (VooV)",
           "vendor_company_id": "C0072",
           "category": "Video conferencing client",
@@ -1672,7 +1662,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0044",
+          "software_id": "S0043",
           "name": "WeCom (Enterprise WeChat)",
           "vendor_company_id": "C0072",
           "category": "Enterprise messaging client",
@@ -1682,7 +1672,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0045",
+          "software_id": "S0044",
           "name": "Tencent Docs",
           "vendor_company_id": "C0072",
           "category": "Document collaboration client",
@@ -1713,7 +1703,7 @@
       "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0046",
+          "software_id": "S0045",
           "name": "Omada Software Controller",
           "vendor_company_id": "C0074",
           "category": "On-prem network management console",
@@ -1723,7 +1713,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0047",
+          "software_id": "S0046",
           "name": "Pharos Control",
           "vendor_company_id": "C0074",
           "category": "Centralized network management software",
@@ -1754,10 +1744,20 @@
       "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0048",
+          "software_id": "S0047",
           "name": "GNSS Explorer",
           "vendor_company_id": "C0076",
-          "category": "GNSS post-processing software",
+          "category": "GNSS post-processing (desktop; Windows implied, OS not stated on vendor page)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://en.geosuntech.com/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0048",
+          "name": "Shuttle",
+          "vendor_company_id": "C0076",
+          "category": "GNSS/INS trajectory post-processing (desktop; Windows implied, OS not stated)",
           "windows_installable": true,
           "catalog_status": "verified",
           "source_url": "https://en.geosuntech.com/",
@@ -1765,9 +1765,9 @@
         },
         {
           "software_id": "S0049",
-          "name": "Shuttle",
+          "name": "PointCloudCreater",
           "vendor_company_id": "C0076",
-          "category": "GNSS/INS trajectory post-processing",
+          "category": "Point-cloud preprocessing (desktop; Windows implied, OS not stated)",
           "windows_installable": true,
           "catalog_status": "verified",
           "source_url": "https://en.geosuntech.com/",
@@ -1775,19 +1775,9 @@
         },
         {
           "software_id": "S0050",
-          "name": "PointCloudCreater",
-          "vendor_company_id": "C0076",
-          "category": "Point-cloud preprocessing",
-          "windows_installable": true,
-          "catalog_status": "verified",
-          "source_url": "https://en.geosuntech.com/",
-          "indicators": []
-        },
-        {
-          "software_id": "S0051",
           "name": "WaypointMaster",
           "vendor_company_id": "C0076",
-          "category": "UAV flight planning",
+          "category": "UAV flight planning (desktop; Windows implied, OS not stated)",
           "windows_installable": true,
           "catalog_status": "verified",
           "source_url": "https://en.geosuntech.com/",
@@ -1815,7 +1805,7 @@
       "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0052",
+          "software_id": "S0051",
           "name": "ZHITAI UNIMASTER SSD",
           "vendor_company_id": "C0078",
           "category": "SSD management/monitoring utility",
@@ -1825,7 +1815,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0053",
+          "software_id": "S0052",
           "name": "ZHITAI UNIMASTER PSSD",
           "vendor_company_id": "C0078",
           "category": "Portable SSD management utility",
@@ -1835,7 +1825,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0054",
+          "software_id": "S0053",
           "name": "PSSD AESTool",
           "vendor_company_id": "C0078",
           "category": "Portable SSD encryption utility",
@@ -1861,7 +1851,7 @@
       "disposition_justification": "Publishes installable Windows software (6 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
       "software": [
         {
-          "software_id": "S0055",
+          "software_id": "S0054",
           "name": "SmartPSS",
           "vendor_company_id": "C0079",
           "category": "Video management client (Win64)",
@@ -1871,7 +1861,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0056",
+          "software_id": "S0055",
           "name": "SmartPSS Lite",
           "vendor_company_id": "C0079",
           "category": "Video management client",
@@ -1881,7 +1871,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0057",
+          "software_id": "S0056",
           "name": "DSS Express",
           "vendor_company_id": "C0079",
           "category": "Video management server software",
@@ -1891,7 +1881,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0058",
+          "software_id": "S0057",
           "name": "ConfigTool",
           "vendor_company_id": "C0079",
           "category": "Device discovery/configuration tool",
@@ -1901,7 +1891,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0059",
+          "software_id": "S0058",
           "name": "Smart Player",
           "vendor_company_id": "C0079",
           "category": "Playback/conversion tool",
@@ -1911,7 +1901,7 @@
           "indicators": []
         },
         {
-          "software_id": "S0060",
+          "software_id": "S0059",
           "name": "Dahua Toolbox",
           "vendor_company_id": "C0079",
           "category": "Maintenance/utility suite",
