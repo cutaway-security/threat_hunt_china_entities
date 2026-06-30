@@ -1,0 +1,1949 @@
+{
+  "meta": {
+    "source_pdf": "ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
+    "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
+    "source_date": "2026-06-08",
+    "list_version": "2026-06-08",
+    "best_effort": true
+  },
+  "entities": [
+    {
+      "company_id": "C0001",
+      "name": "360 Security Technology Inc. (Qihoo 360)",
+      "short_alias": "Qihoo 360",
+      "affiliation_rationale": "Qihoo 360 is directly and indirectly affiliated with the Ministry of Industry and Information Technology (MIIT) and the Ministry of State Security (Section 1260H(g)(2)(B)(i)(I)). Qihoo 360 is a military civil fusion contributor to the Chinese defense industrial base because it is affiliated with the MIIT and with MSS (Sections 1260H(g)(3)(B)(i) and (g)(3)(B)(iv)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0001",
+          "name": "360 Total Security",
+          "vendor_company_id": "C0001",
+          "category": "Antivirus / endpoint security suite",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.360totalsecurity.com/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0002",
+      "name": "Aerospace CH UAV Co., Ltd (CH UAV)",
+      "short_alias": "CH UAV",
+      "affiliation_rationale": "CH UAV is indirectly owned by the State-Owned Assets Supervision and Administration Commission of the State Council (SASAC) and is directly affiliated with the People’s Liberation Army (PLA) (Section 1260H(g)(2)(B)(i)(I)). CH UAV is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the People’s Liberation Army (PLA) (Section 1260H(g)(3)(B)(v)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Aerospace/UAV and films hardware maker; no installable Windows software.",
+      "software": []
+    },
+    {
+      "company_id": "C0003",
+      "name": "Aerosun Corporation (Aerosun)",
+      "short_alias": "Aerosun",
+      "affiliation_rationale": "Aerosun is indirectly owned by the SASAC and is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Industrial hardware (special vehicles, piping, nuclear equipment); no Windows software.",
+      "software": []
+    },
+    {
+      "company_id": "C0004",
+      "name": "Alibaba Group Holding Limited (Alibaba)",
+      "short_alias": "Alibaba",
+      "affiliation_rationale": "Alibaba is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Alibaba is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0002",
+          "name": "DingTalk",
+          "vendor_company_id": "C0004",
+          "category": "Enterprise collaboration desktop client",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.wingetgui.com/apps/Alibaba-DingTalk",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0005",
+      "name": "Autel Intelligent Technology Corp., Ltd. (Autel Technology)",
+      "short_alias": "Autel Technology",
+      "affiliation_rationale": "Autel Technology is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0003",
+          "name": "Maxi PC Suite",
+          "vendor_company_id": "C0005",
+          "category": "Diagnostic device update/management utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://autel.us/software-downloads/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0004",
+          "name": "MaxiLinkII",
+          "vendor_company_id": "C0005",
+          "category": "Code-reader desktop tool",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://autel.us/software-downloads/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0005",
+          "name": "MaxiScope",
+          "vendor_company_id": "C0005",
+          "category": "PC oscilloscope software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://autel.us/software-downloads/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0006",
+          "name": "DS708 PC Suite",
+          "vendor_company_id": "C0005",
+          "category": "MaxiDAS DS708 update suite",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://autel.us/software-downloads/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0006",
+      "name": "Autel Robotics Co., Ltd. (Autel Robotics)",
+      "short_alias": "Autel Robotics",
+      "affiliation_rationale": "Autel Robotics is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Camera-drone hardware; downloads are the mobile app, firmware, and manuals only.",
+      "software": []
+    },
+    {
+      "company_id": "C0007",
+      "name": "Aviation Industry Corporation of China Ltd. (AVIC)",
+      "short_alias": "AVIC",
+      "affiliation_rationale": "AVIC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)). AVIC is a military-civil fusion contributors to the Chinese defense industrial base because it is affiliated with SASAC and State Administration of Science, Technology and Industry for National Defense (SASTIND) (Section 1260H(g)(3)(B)).",
+      "subsidiaries": [
+        {
+          "name": "Align Aerospace LLC",
+          "short_alias": null
+        },
+        {
+          "name": "Avicopter PLC",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Aerospace Systems Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Airborne Systems Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Asset Management Corporation Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Aviation High-Technology Company Limited (AVIC Aviation Hi-Tech)",
+          "short_alias": "AVIC Aviation Hi-Tech"
+        },
+        {
+          "name": "AVIC Chengdu Aircraft Co., Ltd. (formerly Zhonghang Electronic Measuring Instruments Company Limited (ZEMIC))",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Electromechanical Systems Co. Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "AVIC Heavy Machinery Company Limited (AVIC Heavy Machinery)",
+          "short_alias": "AVIC Heavy Machinery"
+        },
+        {
+          "name": "AVIC JONHON Optronic Technology Co., Ltd. (AVIC Jonhon)",
+          "short_alias": "AVIC Jonhon"
+        },
+        {
+          "name": "AVIC Shenyang Aircraft Company Limited (AVIC Shenyang)",
+          "short_alias": "AVIC Shenyang"
+        },
+        {
+          "name": "AVIC Xi’an Aircraft Industry Group Company Ltd. (formerly Xi’an Aircraft Industry Group Co., Ltd.)",
+          "short_alias": null
+        },
+        {
+          "name": "Changhe Aircraft Industries (Group) Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Cirrus Design Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "Continental Aerospace Technologies, Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "Jiangxi Hongdu Aviation Industry Co., Ltd. (Hongdu Aviation)",
+          "short_alias": "Hongdu Aviation"
+        },
+        {
+          "name": "Shenyang Aircraft Design Institute",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "State aerospace/defense manufacturing conglomerate; no commercial Windows software.",
+      "software": []
+    },
+    {
+      "company_id": "C0008",
+      "name": "Baicells Technologies Co., Ltd. (Baicells)",
+      "short_alias": "Baicells",
+      "affiliation_rationale": "Baicells is indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I)). Baicells is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "server_or_linux_only",
+      "disposition_justification": "Telecom RAN hardware; management is cloud/server-hosted (CloudCore), browser-accessed.",
+      "software": []
+    },
+    {
+      "company_id": "C0009",
+      "name": "Baidu, Inc. (Baidu)",
+      "short_alias": "Baidu",
+      "affiliation_rationale": "Baidu is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Baidu is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0007",
+          "name": "Baidu Netdisk",
+          "vendor_company_id": "C0009",
+          "category": "Cloud-storage desktop client",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://wingetgui.com/apps/Baidu-BaiduNetdisk",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0010",
+      "name": "Beijing Zhidao Chuangyu Information Technology Co., Ltd. (Knownsec)",
+      "short_alias": "Knownsec",
+      "affiliation_rationale": "Knownsec is directly affiliated with MIIT and indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(i)(I)). Knownsec is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0008",
+          "name": "ZoomEye-python",
+          "vendor_company_id": "C0010",
+          "category": "CLI/SDK (pip; cross-platform incl. Windows)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://github.com/knownsec/ZoomEye-python",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0011",
+      "name": "BGI Group",
+      "short_alias": null,
+      "affiliation_rationale": "BGI Group is directly with the PLA and indirectly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I)). BGI Group is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to the Chinese military planning apparatus, or in furtherance of Chinese military industrial planning objectives and because it is affiliated with MIIT and the PLA (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(B)(v)).",
+      "subsidiaries": [
+        {
+          "name": "BGI Americas Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "BGI Genomics Co., Ltd. (BGI)",
+          "short_alias": "BGI"
+        },
+        {
+          "name": "Complete Genomics, Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "Forensic Genomics International (FGI)",
+          "short_alias": "FGI"
+        },
+        {
+          "name": "GBI Diagnostics, Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "Innomics Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "STOmics Americas Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Genomics; sequencer/bioinformatics software exists in the BGI/MGI ecosystem but verified Windows downloads belong to affiliate MGI; needs per-product verification.",
+      "software": []
+    },
+    {
+      "company_id": "C0012",
+      "name": "BOE Technology Group Company Limited (BOE)",
+      "short_alias": "BOE",
+      "affiliation_rationale": "BOE is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)). BOE is a military- civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA and because it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(B)(v) and (g)(3)(E)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "LCD/OLED display-panel and component hardware maker.",
+      "software": []
+    },
+    {
+      "company_id": "C0013",
+      "name": "BYD Company Limited (BYD)",
+      "short_alias": "BYD",
+      "affiliation_rationale": "BYD is directly and indirectly affiliated with SASAC and is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)). BYD is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT and because it resides in or is affiliated with a military-civil fusion enterprise zone (Sections 1260H(g)(3)(B)(i) and (g)(3)(E)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "EV/battery/electronics hardware; customer software is mobile-only.",
+      "software": []
+    },
+    {
+      "company_id": "C0014",
+      "name": "CALB Group Co., Ltd. (CALB)",
+      "short_alias": "CALB",
+      "affiliation_rationale": "CALB is indirectly owned by SASAC and is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Lithium battery cell/pack hardware maker; downloads are datasheets only.",
+      "software": []
+    },
+    {
+      "company_id": "C0015",
+      "name": "CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)",
+      "short_alias": null,
+      "affiliation_rationale": "CETC Cyberspace Security Technology Co., Ltd. is indirectly owned by SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Assessed: no confirmed installable Windows software.",
+      "software": [
+        {
+          "software_id": "S0009",
+          "name": "Endpoint Security Management System",
+          "vendor_company_id": "C0015",
+          "category": "Endpoint security client",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://en.cetccst.com.cn/about/173.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0010",
+          "name": "File Encryption and Access Control",
+          "vendor_company_id": "C0015",
+          "category": "Endpoint encryption client",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://en.cetccst.com.cn/about/173.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0011",
+          "name": "OrangeMessage",
+          "vendor_company_id": "C0015",
+          "category": "Secure messaging client",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://en.cetccst.com.cn/about/173.html",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0016",
+      "name": "CETC Digital Technology Co., Ltd. (formerly Shanghai East China Computer Co., Ltd.)",
+      "short_alias": null,
+      "affiliation_rationale": "CETC Digital Technology Co., Ltd. is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "server_or_linux_only",
+      "disposition_justification": "Computing hardware plus server-side data-center/cloud platforms.",
+      "software": []
+    },
+    {
+      "company_id": "C0017",
+      "name": "CETC Potevio Science & Technology Co., Ltd (formerly Guangzhou GCI Science & Technology Co., Ltd.)",
+      "short_alias": null,
+      "affiliation_rationale": "CETC Potevio Science & Technology Co., Ltd. is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Telecom/network communication and RF/PCB hardware.",
+      "software": []
+    },
+    {
+      "company_id": "C0018",
+      "name": "ChangXin Memory Technologies, Inc. (CXMT)",
+      "short_alias": "CXMT",
+      "affiliation_rationale": "CXMT is directly affiliated with MIIT and indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "DRAM semiconductor memory fabricator (chips, not software).",
+      "software": []
+    },
+    {
+      "company_id": "C0019",
+      "name": "Chengdu JOUAV Automation Tech Co., Ltd. (JOUAV)",
+      "short_alias": "JOUAV",
+      "affiliation_rationale": "JOUAV is directly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I)). JOUAV is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant;” it is affiliated with MIIT; it is affiliated with the PLA, and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i) and (v), and (g)(3)(E)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Assessed: no confirmed installable Windows software.",
+      "software": [
+        {
+          "software_id": "S0012",
+          "name": "Eagle Map",
+          "vendor_company_id": "C0019",
+          "category": "Drone GCS / mission-planning software",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://www.jouav.com/products/eagle-map.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0013",
+          "name": "FlightSurv",
+          "vendor_company_id": "C0019",
+          "category": "Drone mapping / flight-planning",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://www.jouav.com/products/software/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0020",
+      "name": "Chengdu M&S Electronics Technology Co., Ltd. (M&S Electronics)",
+      "short_alias": "M&S Electronics",
+      "affiliation_rationale": "M&S Electronics is indirectly affiliated with SASAC and SASTIND (Section 1260H(g)(2)(B)(i)(I)). M&S Electronics is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Satellite navigation/EW RF components and hardware.",
+      "software": []
+    },
+    {
+      "company_id": "C0021",
+      "name": "China Aerospace Science and Industry Corporation Limited (CASIC)",
+      "short_alias": "CASIC",
+      "affiliation_rationale": "CASIC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)). CASIC is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA and SASTIND (Sections 1260H(g)(3)(B)(iii) and (v)).",
+      "subsidiaries": [
+        {
+          "name": "Addsino Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Aerospace Precision Products Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Aisino Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "China Aerospace Automotive Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Aerospace/defense conglomerate (missiles, space, defense electronics).",
+      "software": []
+    },
+    {
+      "company_id": "C0022",
+      "name": "China Cargo Airlines Co., Ltd. (CCA)",
+      "short_alias": "CCA",
+      "affiliation_rationale": "CCA is indirectly owned by SASAC and it is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Air cargo/freight airline (logistics service).",
+      "software": []
+    },
+    {
+      "company_id": "C0023",
+      "name": "China Communications Construction Group (Limited) (CCCG)",
+      "short_alias": "CCCG",
+      "affiliation_rationale": "CCCG is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "CCCC Design and Consulting Group Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "CCCC First Harbor Engineering Bureau Co. Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "CCCC Second Navigation Engineering Bureau Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "CCCC Third Navigation Engineering Bureau Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "China Airport Construction Group Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "China Communications Construction (USA) Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "China Communications Construction Company Limited (CCCC)",
+          "short_alias": "CCCC"
+        },
+        {
+          "name": "China Transportation Materials Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "John Holland Group Pty Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "John Holland Services Pty Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Shanghai Zhenhua Shipping Co. Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "ZPMC North America, Inc.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Infrastructure/construction conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0024",
+      "name": "China Construction Technology Co., Ltd. (CCTC)",
+      "short_alias": "CCTC",
+      "affiliation_rationale": "CCTC is directly controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Construction-sector technology and engineering services.",
+      "software": []
+    },
+    {
+      "company_id": "C0025",
+      "name": "China COSCO SHIPPING Corporation Limited (COSCO SHIPPING)",
+      "short_alias": "COSCO SHIPPING",
+      "affiliation_rationale": "COSCO SHIPPING is directly owned and controlled by SASAC; it officially acts on behalf of the PLA; and it is indirectly affiliated with SASTIND (Section 1260H(g)(2)(B)(i)(I)). COSCO SHIPPING is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [
+        {
+          "name": "China Ocean Shipping Company Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "COSCO SHIPPING (North America) Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "COSCO SHIPPING Logistics Supply Chain Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Shanghai Ship and Shipping Research",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Shipping, ports, and marine logistics conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0026",
+      "name": "China Electronics Corporation (CEC)",
+      "short_alias": "CEC",
+      "affiliation_rationale": "CEC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "China Information Security Research Institute",
+          "short_alias": null
+        },
+        {
+          "name": "IRICO Group Company, Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Shenzhen CEC Blue Ocean Holdings Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "The 6th Research Institute of CEC",
+          "short_alias": null
+        }
+      ],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "State electronics/IT holding; subsidiaries publish software (some Linux/Kylin), but no Windows product confirmed under the named parent.",
+      "software": []
+    },
+    {
+      "company_id": "C0027",
+      "name": "China Electronics Technology Group Corporation (CETC)",
+      "short_alias": "CETC",
+      "affiliation_rationale": "CETC is directly owned and controlled by SASAC, is directly affiliated with MIIT and SASTIND and it is indirectly affiliated with MIITand the PLA (Section 1260H(g)(2)(B)(i)(I)). CETC is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT, SASTIND, and the PLA (Sections 1260H(g)(3)(B)(i), (iii), and (v)).",
+      "subsidiaries": [
+        {
+          "name": "14th Research Institute of CETC",
+          "short_alias": null
+        },
+        {
+          "name": "15th Research Institute of CETC",
+          "short_alias": null
+        },
+        {
+          "name": "CETC Research Institute 32",
+          "short_alias": null
+        }
+      ],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Defense-electronics conglomerate; some subsidiaries make software, none confirmed Windows under the named umbrella.",
+      "software": []
+    },
+    {
+      "company_id": "C0028",
+      "name": "China General Nuclear Power Corporation (CGN)",
+      "short_alias": "CGN",
+      "affiliation_rationale": "CGN is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Nuclear power generation/energy operator.",
+      "software": []
+    },
+    {
+      "company_id": "C0029",
+      "name": "China International Marine Containers (Group) Co., Ltd. (CIMC)",
+      "short_alias": "CIMC",
+      "affiliation_rationale": "CIMC is indirectly owned by SASAC and is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Container/vehicle/marine-equipment manufacturer (hardware).",
+      "software": []
+    },
+    {
+      "company_id": "C0030",
+      "name": "China Mobile Communications Group Co., Ltd. (China Mobile Comm)",
+      "short_alias": "China Mobile Comm",
+      "affiliation_rationale": "China Mobile Comm is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Aspire Technologies (Shenzhen) Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China Mobile Hong Kong (BVI) Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China Mobile Limited (China Mobile)",
+          "short_alias": "China Mobile"
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Telecom carrier; offerings are network services plus mobile/web apps.",
+      "software": []
+    },
+    {
+      "company_id": "C0031",
+      "name": "China National Chemical Corporation Ltd. (ChemChina)",
+      "short_alias": "ChemChina",
+      "affiliation_rationale": "ChemChina is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Chemical manufacturing and agrochemical/materials conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0032",
+      "name": "China National Chemical Engineering Group Corporation (CNCEC)",
+      "short_alias": "CNCEC",
+      "affiliation_rationale": "CNCEC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Chemical-plant engineering and EPC construction.",
+      "software": []
+    },
+    {
+      "company_id": "C0033",
+      "name": "China National Nuclear Corporation (CNNC)",
+      "short_alias": "CNNC",
+      "affiliation_rationale": "CNNC is directly owned and controlled by SASAC and is affiliated with the PLA and SASTIND (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "State nuclear conglomerate (weapons, power, fuel cycle).",
+      "software": []
+    },
+    {
+      "company_id": "C0034",
+      "name": "China National Offshore Oil Corporation (CNOOC)",
+      "short_alias": "CNOOC",
+      "affiliation_rationale": "CNOOC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "China BlueChemical Limited",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Offshore oil and gas energy operator.",
+      "software": []
+    },
+    {
+      "company_id": "C0035",
+      "name": "China North Industries Group Corporation Limited (Norinco Group)",
+      "short_alias": "Norinco Group",
+      "affiliation_rationale": "Norinco Group is directly owned and controlled by SASAC and is directly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)). Norinco Group is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with SASAC (Section 1260H(g)(3)(B)(ii)).",
+      "subsidiaries": [
+        {
+          "name": "China North Chemical Research Academy Group Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Chinese Academy of Ordnance Science",
+          "short_alias": null
+        },
+        {
+          "name": "Harbin First Machinery Group Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Inner Mongolia First Machinery Group Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Kiekert USA Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "Merit Automotive Electronics Systems S.L.U",
+          "short_alias": null
+        },
+        {
+          "name": "North Petroleum International Company Limited",
+          "short_alias": null
+        },
+        {
+          "name": "Yunnan Yuanjin Optical Instrument Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Defense/industrial hardware (weapons, vehicles, munitions, radars).",
+      "software": []
+    },
+    {
+      "company_id": "C0036",
+      "name": "China South Industries Group Corporation (CSGC)",
+      "short_alias": "CSGC",
+      "affiliation_rationale": "CSGC is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Baoding Tianwei Baobian Electric Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Beijing Beiji Mechanical and Electrical Industry Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Changan US R&D Center, Inc.",
+          "short_alias": null
+        },
+        {
+          "name": "China South Industries Group Corporation No. 59 Research Institute Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Heilongjiang Northern Tools Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Sichuan Jian’an Industry Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Defense/automotive hardware manufacturer.",
+      "software": []
+    },
+    {
+      "company_id": "C0037",
+      "name": "China SpaceSat Co., Ltd. (China SpaceSat)",
+      "short_alias": "China SpaceSat",
+      "affiliation_rationale": "China SpaceSat is indirectly owned by SASAC and is indirectly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Aerospace Star Space Technology Application Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Oriental Blue Sky Titanium Technology Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Xi’an Aerospace Tianhua Data Technology Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Aerospace; satellites, antennas, Beidou terminals, ground systems (hardware).",
+      "software": []
+    },
+    {
+      "company_id": "C0038",
+      "name": "China State Construction Engineering Corporation Limited (CSCEC)",
+      "short_alias": "CSCEC",
+      "affiliation_rationale": "CSCEC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "China Construction America, Inc.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "State construction/engineering conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0039",
+      "name": "China State Shipbuilding Corporation Limited (CSSC)",
+      "short_alias": "CSSC",
+      "affiliation_rationale": "CSSC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "China Shipbuilding Trading Co., Ltd. (CSTC)",
+          "short_alias": "CSTC"
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Shipbuilding and marine/defense equipment conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0040",
+      "name": "China Telecom Group Co., Ltd. (China Telecom)",
+      "short_alias": "China Telecom",
+      "affiliation_rationale": "China Telecom is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "China Telecom Corporation Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China Telecom Satellite Communications Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "New Guomai Digital Culture Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Tianyi Cloud Technology Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Zhongjie Communications Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0014",
+          "name": "Cloud 189 PC client",
+          "vendor_company_id": "C0040",
+          "category": "Cloud-storage desktop client",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://cloud.189.cn/web/static/download-client/index.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0015",
+          "name": "eCloud Computer",
+          "vendor_company_id": "C0040",
+          "category": "Cloud-desktop client",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://apps.microsoft.com/detail/xpdnk2982gqmxt",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0041",
+      "name": "China Three Gorges Corporation (CTG)",
+      "short_alias": "CTG",
+      "affiliation_rationale": "CTG is directly owned and controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Hydropower/clean-energy infrastructure operator and builder.",
+      "software": []
+    },
+    {
+      "company_id": "C0042",
+      "name": "China United Network Communications Group Co., Ltd. (China Unicom)",
+      "short_alias": "China Unicom",
+      "affiliation_rationale": "China Unicom is directly controlled by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Beijing Telecom Planning and Designing Institute Company Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China Unicom (BVI) Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "China Unicom (Hong Kong) Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China Unicom Group Corporation (BVI) Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "China United Network Communications Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Telecom service operator; only verified client is the mobile app.",
+      "software": []
+    },
+    {
+      "company_id": "C0043",
+      "name": "CloudWalk Technology Co., Ltd. (CloudWalk)",
+      "short_alias": "CloudWalk",
+      "affiliation_rationale": "CloudWalk is indirectly owned by and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). CloudWalk is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Facial-recognition AI; publishes a detection SDK but verified platforms are mobile/embedded/cloud, no Windows build confirmed.",
+      "software": []
+    },
+    {
+      "company_id": "C0044",
+      "name": "Commercial Aircraft Corporation of China Limited (COMAC)",
+      "short_alias": "COMAC",
+      "affiliation_rationale": "COMAC is directly owned and controlled by SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Beijing Aeronautical Science & Technology Research Institute",
+          "short_alias": null
+        },
+        {
+          "name": "COMAC America Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "Shanghai Aircraft Design and Research Institute",
+          "short_alias": null
+        },
+        {
+          "name": "Shanghai Aircraft Manufacturing Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Civil aircraft manufacturer (hardware and services).",
+      "software": []
+    },
+    {
+      "company_id": "C0045",
+      "name": "Contemporary Amperex Technology Co., Ltd. (CATL)",
+      "short_alias": "CATL",
+      "affiliation_rationale": "CATL is indirectly affiliated with MIIT and is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "EV-battery and energy-storage hardware; BMS ships as embedded firmware.",
+      "software": []
+    },
+    {
+      "company_id": "C0046",
+      "name": "CRRC Corporation Limited (CRRC)",
+      "short_alias": "CRRC",
+      "affiliation_rationale": "CRRC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Rail/rolling-stock manufacturer (trains, locomotives, metro).",
+      "software": []
+    },
+    {
+      "company_id": "C0047",
+      "name": "CSSC Offshore & Marine Engineering (Group) Company Limited (COMEC)",
+      "short_alias": "COMEC",
+      "affiliation_rationale": "COMEC is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Guangzhou Wenchuan Heavy Industry Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Huacheng (Tianjin) Ship Leasing Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Shipbuilding/marine-engineering enterprise (CSSC subsidiary).",
+      "software": []
+    },
+    {
+      "company_id": "C0048",
+      "name": "Dawning Information Industry Co., Ltd. (Sugon)",
+      "short_alias": "Sugon",
+      "affiliation_rationale": "Sugon is indirectly affiliated with MIIT, SASAC, and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Server/HPC/storage and cloud vendor (server/Linux-oriented); a Windows mgmt/driver tool is plausible but unconfirmed.",
+      "software": []
+    },
+    {
+      "company_id": "C0049",
+      "name": "EVE Energy Co., Ltd.",
+      "short_alias": null,
+      "affiliation_rationale": "EVE Energy is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). EVE Energy is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives, through its selection as a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Lithium battery/ESS hardware; BMS is embedded firmware.",
+      "software": []
+    },
+    {
+      "company_id": "C0050",
+      "name": "Global Tone Communication Technology Co., Ltd. (GTCOM)",
+      "short_alias": "GTCOM",
+      "affiliation_rationale": "GTCOM is indirectly affiliated with SASAC and MIIT (Section 1260H(g)(2)(B)(i)(I)). GTCOM is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [
+        {
+          "name": "GTCOM Technology Corporation (GTCOM-US)",
+          "short_alias": "GTCOM-US"
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0016",
+          "name": "YeeKit Word Translation Plug-in",
+          "vendor_company_id": "C0050",
+          "category": "MS Word translation client (C/S)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25",
+          "indicators": []
+        },
+        {
+          "software_id": "S0017",
+          "name": "YeeCaption",
+          "vendor_company_id": "C0050",
+          "category": "Audio/video translation desktop software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0051",
+      "name": "Guizhou Aviation Technical Development Co., Ltd. (Guizhou Aviation Tech)",
+      "short_alias": "Guizhou Aviation Tech",
+      "affiliation_rationale": "Guizhou Aviation Tech is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Guizhou Aviation Tech is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designations as a “Little Giant” and a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Aero-engine forging/metallurgical materials manufacturer.",
+      "software": []
+    },
+    {
+      "company_id": "C0052",
+      "name": "Hangzhou Hikvision Digital Technology Co., Ltd. (Hikvision)",
+      "short_alias": "Hikvision",
+      "affiliation_rationale": "Hikvision is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)). Hikvision is a military-civil fusion contributor to the Chinese defense industrial base because it receives funding from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0018",
+          "name": "iVMS-4200",
+          "vendor_company_id": "C0052",
+          "category": "Video-management client (VMS)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.hikvision.com/us-en/support/download/software/ivms4200-series/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0019",
+          "name": "HikCentral Professional",
+          "vendor_company_id": "C0052",
+          "category": "Video surveillance management software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://us.hikvision.com/en/products/software/ivms-4200-series/free-client-software-hikvision-devices-ivms-4200-windows",
+          "indicators": []
+        },
+        {
+          "software_id": "S0020",
+          "name": "SADP Tool",
+          "vendor_company_id": "C0052",
+          "category": "Device search/activation utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.hikvision.com/us-en/support/download/software/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0021",
+          "name": "Batch Configuration Tool",
+          "vendor_company_id": "C0052",
+          "category": "Device batch-configuration utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.hikvision.com/us-en/support/download/software/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0053",
+      "name": "Hangzhou Yushu Technology Co., Ltd. (Unitree)",
+      "short_alias": "Unitree",
+      "affiliation_rationale": "Unitree is indirectly owned by and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). Unitree is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0022",
+          "name": "Unilidar 2",
+          "vendor_company_id": "C0053",
+          "category": "4D LiDAR point-cloud visualization (Win64)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf",
+          "indicators": []
+        },
+        {
+          "software_id": "S0023",
+          "name": "unilidar_sdk",
+          "vendor_company_id": "C0053",
+          "category": "LiDAR SDK",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://github.com/unitreerobotics/unilidar_sdk",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0054",
+      "name": "Hesai Group (also known as Hesai Technology Co., Ltd.)",
+      "short_alias": null,
+      "affiliation_rationale": "Hesai Group is directly affiliated with MIIT and is indirectly affiliated with SASAC of the State Council and the PLA (Section 1260H(g)(2)(B)(i)(I)). Hesai Group is a military- civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant;” it is affiliated with the MIIT; and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(E)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0024",
+          "name": "PandarView 2",
+          "vendor_company_id": "C0054",
+          "category": "Point-cloud visualization desktop app",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.hesaitech.com/product_downloads/pandarview-2/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0025",
+          "name": "LidarUtilities",
+          "vendor_company_id": "C0054",
+          "category": "Device configuration utilities (Win64)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.hesaitech.com/downloads/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0055",
+      "name": "Huawei Investment & Holding Co., Ltd. (Huawei Holding)",
+      "short_alias": "Huawei Holding",
+      "affiliation_rationale": "Huawei Holding is indirectly affiliated with SASAC and is directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Huawei Technologies Co., Ltd. (Huawei)",
+          "short_alias": "Huawei"
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0026",
+          "name": "HUAWEI PC Manager",
+          "vendor_company_id": "C0055",
+          "category": "PC management / device-collaboration app",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://consumer.huawei.com/en/support/pc-manager/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0027",
+          "name": "HUAWEI HiSuite",
+          "vendor_company_id": "C0055",
+          "category": "Phone/PC suite (backup, data management)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://consumer.huawei.com/en/support/hisuite/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0028",
+          "name": "eNSP / eNSP Pro",
+          "vendor_company_id": "C0055",
+          "category": "Enterprise network simulation platform",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://info.support.huawei.com/info-finder/encyclopedia/en/eNSP+Pro.html",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0056",
+      "name": "Inspur Group Co., Ltd. (Inspur)",
+      "short_alias": "Inspur",
+      "affiliation_rationale": "Inspur is indirectly affiliated with MIIT and SASTIND (Section 1260H(g)(2)(B)(i)(I)). Inspur is a military-civil fusion contributor because it is affiliated with MIIT and SASAC (Sections 1260H(g)(3)(B)(i) and (g)(3)(B)(ii)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Assessed: no confirmed installable Windows software.",
+      "software": [
+        {
+          "software_id": "S0029",
+          "name": "InspurDiagLogCollect-Win",
+          "vendor_company_id": "C0056",
+          "category": "Server diagnostic/log-collection client tool",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://www.scribd.com/presentation/458371263/3-Knowdge-base-and-tools",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0057",
+      "name": "JA Solar Technology Co., Ltd. (JA Solar)",
+      "short_alias": "JA Solar",
+      "affiliation_rationale": "JA Solar is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Little Giant” and a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Solar PV cell/module (panel) hardware manufacturer.",
+      "software": []
+    },
+    {
+      "company_id": "C0058",
+      "name": "MGI Tech Co., Ltd. (MGI)",
+      "short_alias": "MGI",
+      "affiliation_rationale": "MGI is directly affiliated with MIIT and indirectly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)). MGI is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” and because it is affiliated with MIIT (Sections 1260H(g)(3)(A) and (g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Gene-sequencing instruments; verified software (ZLIMS/MegaBOLT/ZTRON) is server/Linux; instrument-control Windows distribution unconfirmed.",
+      "software": []
+    },
+    {
+      "company_id": "C0059",
+      "name": "NetPosa Technologies, Ltd. (NetPosa)",
+      "short_alias": "NetPosa",
+      "affiliation_rationale": "NetPosa is directly and indirectly affiliated with the Chinese security forces and it is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "VMS/video-cloud provider; a Windows operator client is likely (largest China VMS) but no named installer confirmed (site fetch refused).",
+      "software": []
+    },
+    {
+      "company_id": "C0060",
+      "name": "NIO, Inc.",
+      "short_alias": null,
+      "affiliation_rationale": "NIO is directly and indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). NIO is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "EV maker; in-car software is embedded; companion app is mobile-only.",
+      "software": []
+    },
+    {
+      "company_id": "C0061",
+      "name": "Novogene Company Limited (Novogene)",
+      "short_alias": "Novogene",
+      "affiliation_rationale": "Novogene is indirectly owned by SASAC and is indirectly affiliated with MIIT and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Genomics sequencing services; bioinformatics is a cloud/web platform.",
+      "software": []
+    },
+    {
+      "company_id": "C0062",
+      "name": "Origincell Technology Co., Ltd. (Origincell)",
+      "short_alias": "Origincell",
+      "affiliation_rationale": "Origincell is indirectly affiliated with MIIT, SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Automated cryogenic biobank storage hardware (embedded control).",
+      "software": []
+    },
+    {
+      "company_id": "C0063",
+      "name": "Phenix Optical Company Limited (formerly Phoenix Optics Company Limited)",
+      "short_alias": null,
+      "affiliation_rationale": "Phenix Optical Company Limited is directly controlled by SASAC and is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Assessed: no confirmed installable Windows software.",
+      "software": [
+        {
+          "software_id": "S0030",
+          "name": "Phenix microscope imaging software",
+          "vendor_company_id": "C0063",
+          "category": "Microscope imaging/measurement (bundled)",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://www.medicalexpo.com/prod/phenix-optics-co-ltd/product-301427-1015838.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0031",
+          "name": "Phenix ME200 digital-microscope driver",
+          "vendor_company_id": "C0063",
+          "category": "Windows device driver",
+          "windows_installable": true,
+          "catalog_status": "candidate",
+          "source_url": "https://phenix-digital-microscope-me200-vu-drvie.software.informer.com/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0064",
+      "name": "Quectel Wireless Solutions Co., Ltd.",
+      "short_alias": null,
+      "affiliation_rationale": "Quectel is indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0032",
+          "name": "Quectel Windows USB Driver",
+          "vendor_company_id": "C0064",
+          "category": "Windows USB device driver (NDIS/ECM/RNDIS)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.quectel.com/download/quectel_windows_usb_driverq_ndis_v2-8_en/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0033",
+          "name": "QNavigator",
+          "vendor_company_id": "C0064",
+          "category": "Module test / AT-command GUI tool",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.quectel.com/download/qnavigator_v1-5/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0034",
+          "name": "QCOM",
+          "vendor_company_id": "C0064",
+          "category": "Serial / AT-command terminal tool",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.quectel.com/download/qcom_v1-6/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0035",
+          "name": "QFlash",
+          "vendor_company_id": "C0064",
+          "category": "Firmware flashing utility",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://techship.com/downloads/quectel-qflash-flash-tool-for-windows/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0065",
+      "name": "Robosense Technology Co., Ltd.",
+      "short_alias": null,
+      "affiliation_rationale": "RoboSense is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with the PLA (Section 1260H(g)(3)(B)(v)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0036",
+          "name": "RSView",
+          "vendor_company_id": "C0065",
+          "category": "LiDAR point-cloud visualization / config app",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://store.robosense.ai/pages/faq-software-rsview",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0066",
+      "name": "SDIC Intelligence (Xiamen) Information Co., Ltd.",
+      "short_alias": null,
+      "affiliation_rationale": "SDIC Intelligence is indirectly owned and controlled by SASAC and is indirectly affiliated with Chinese security forces, Chinese law enforcement, and MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Beijing Meiya Hongshu Technology Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Xiamen Meiya Zhongmin Electronic Technology Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (1 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0037",
+          "name": "Forensics Master",
+          "vendor_company_id": "C0066",
+          "category": "Digital forensic analysis software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.meiyapico.com/forensics-master_p18.html",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0067",
+      "name": "Semiconductor Manufacturing International Corporation (SMIC)",
+      "short_alias": "SMIC",
+      "affiliation_rationale": "SMIC is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Better Way Enterprises Limited",
+          "short_alias": null
+        },
+        {
+          "name": "China IC Capital Co., Ltd.",
+          "short_alias": null
+        },
+        {
+          "name": "Magnificent Tower Limited",
+          "short_alias": null
+        },
+        {
+          "name": "Semiconductor Manufacturing International (Beijing) Corporation (SMIC Beijing)",
+          "short_alias": "SMIC Beijing"
+        },
+        {
+          "name": "Semiconductor Manufacturing International (Shenzhen) Corporation (SMIC Shenzhen)",
+          "short_alias": "SMIC Shenzhen"
+        },
+        {
+          "name": "Semiconductor Manufacturing International (Tianjin) Corporation (SMIC Tianjin)",
+          "short_alias": "SMIC Tianjin"
+        },
+        {
+          "name": "Semiconductor Manufacturing North China (Beijing) Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "Semiconductor Manufacturing South China Corporation (SMIC South China)",
+          "short_alias": "SMIC South China"
+        },
+        {
+          "name": "SilTech Semiconductor Corporation",
+          "short_alias": null
+        },
+        {
+          "name": "SMIC Holdings Limited (SMIC Holdings)",
+          "short_alias": "SMIC Holdings"
+        },
+        {
+          "name": "SMIC Semiconductor Manufacturing (Shanghai) Co., Ltd (SMIC Shanghai)",
+          "short_alias": "SMIC Shanghai"
+        },
+        {
+          "name": "SMIC, Americas",
+          "short_alias": null
+        }
+      ],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "Pure-play semiconductor wafer foundry (chips, not software).",
+      "software": []
+    },
+    {
+      "company_id": "C0068",
+      "name": "SenseTime Group, Inc. (SenseTime)",
+      "short_alias": "SenseTime",
+      "affiliation_rationale": "SenseTime is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). SenseTime is a military-civil fusion contributor to the Chinese defense industrial base because it is affiliated with MIIT (Section 1260H(g)(3)(B)(i)).",
+      "subsidiaries": [],
+      "disposition": "candidate_pending_verification",
+      "disposition_justification": "Computer-vision AI; verified offerings are cloud/web and mobile/embedded SDKs; no Windows desktop app/SDK confirmed.",
+      "software": []
+    },
+    {
+      "company_id": "C0069",
+      "name": "Shanghai Yitu Network Technology Co., Ltd. (Yitu)",
+      "short_alias": "Yitu",
+      "affiliation_rationale": "Yitu is indirectly owned by SASAC and is indirectly affiliated with MIIT, SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "server_or_linux_only",
+      "disposition_justification": "Enterprise AI delivered as server/cloud/edge platforms and AI chips.",
+      "software": []
+    },
+    {
+      "company_id": "C0070",
+      "name": "Shenzhen DJI Technology Co., Ltd. (DJI)",
+      "short_alias": "DJI",
+      "affiliation_rationale": "DJI is indirectly affiliated with SASAC and is directly affiliated with MIIT and the People’s Armed Police (PAP) (Section 1260H(g)(2)(B)(i)(I)). DJI is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, research, and industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus, or in furtherance of Chinese military industrial planning objectives through multiple designations, such as a “Single Champion” designation; it is affiliated with MIIT, and it resides in or is affiliated with a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A), (g)(3)(B)(i), and (g)(3)(E)).",
+      "subsidiaries": [
+        {
+          "name": "Shenzhen Dajiang Baiwang Technology Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0038",
+          "name": "DJI Assistant 2",
+          "vendor_company_id": "C0070",
+          "category": "Drone firmware / calibration tool",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.dji.com/downloads/softwares/assistant-dji-2",
+          "indicators": []
+        },
+        {
+          "software_id": "S0039",
+          "name": "DJI Terra",
+          "vendor_company_id": "C0070",
+          "category": "Photogrammetry / mapping app (Windows-only)",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.dji.com/downloads/products/dji-terra",
+          "indicators": []
+        },
+        {
+          "software_id": "S0040",
+          "name": "DJI Thermal Analysis Tool 3",
+          "vendor_company_id": "C0070",
+          "category": "Thermal image analysis tool",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.dji.com/downloads/softwares/dji-dtat3",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0071",
+      "name": "Sinotrans & CSC Holdings Co., Ltd. (SinoTrans)",
+      "short_alias": "SinoTrans",
+      "affiliation_rationale": "Sinotrans is indirectly owned by SASAC and is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "State logistics/shipping/freight-forwarding conglomerate.",
+      "software": []
+    },
+    {
+      "company_id": "C0072",
+      "name": "Tencent Holdings Limited (Tencent)",
+      "short_alias": "Tencent",
+      "affiliation_rationale": "Tencent is indirectly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "indicators_identified",
+      "disposition_justification": "At least one host-artifact detector verified for Tencent software (see verification log).",
+      "software": [
+        {
+          "software_id": "S0041",
+          "name": "WeChat for Windows",
+          "vendor_company_id": "C0072",
+          "category": "Messaging client",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.wechat.com/en",
+          "indicators": [
+            {
+              "indicator_type": "FILE_NAME",
+              "value": "WeChatSetup.exe",
+              "presence_class": "product_installed",
+              "confidence_tier": "VERIFIED",
+              "date_verified": "2026-06-30",
+              "claims": [
+                {
+                  "claim_type": "installer_filename",
+                  "source_class": "winget",
+                  "source_url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/WeChat/3.9.12.57/Tencent.WeChat.installer.yaml",
+                  "proves": "winget lists the official installer WeChatSetup.exe at https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe",
+                  "date_verified": "2026-06-30",
+                  "raw_value": "WeChatSetup.exe"
+                },
+                {
+                  "claim_type": "installer_filename",
+                  "source_class": "vendor_official",
+                  "source_url": "https://dldir1v6.qq.com/weixin/Windows/WeChatSetup.exe",
+                  "proves": "vendor official CDN serves WeChatSetup.exe (HTTP 200) — vendor-distributed installer",
+                  "date_verified": "2026-06-30"
+                }
+              ],
+              "indicator_id": "I0001"
+            }
+          ]
+        },
+        {
+          "software_id": "S0042",
+          "name": "QQ for Windows",
+          "vendor_company_id": "C0072",
+          "category": "Messaging client",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://im.qq.com/",
+          "indicators": [
+            {
+              "indicator_type": "REGISTRY_KEY",
+              "value": "HKLM\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\{052CFB79-9D62-42E3-8A15-DE66C2C97C3E}",
+              "presence_class": "product_installed",
+              "confidence_tier": "CORROBORATED",
+              "date_verified": "2026-06-30",
+              "claims": [
+                {
+                  "claim_type": "arp_publisher",
+                  "source_class": "winget",
+                  "source_url": "https://raw.githubusercontent.com/microsoft/winget-pkgs/master/manifests/t/Tencent/QQ/9.7.23.29392/Tencent.QQ.installer.yaml",
+                  "proves": "Add/Remove Programs entry: ProductCode={052CFB79-9D62-42E3-8A15-DE66C2C97C3E} DisplayName=None Publisher=None type=msi",
+                  "date_verified": "2026-06-30"
+                }
+              ],
+              "notes": "Uninstall key; DisplayName=None Publisher=None",
+              "indicator_id": "I0002"
+            }
+          ]
+        },
+        {
+          "software_id": "S0043",
+          "name": "Tencent Meeting (VooV)",
+          "vendor_company_id": "C0072",
+          "category": "Video conferencing client",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://voovmeeting.com/download-center.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0044",
+          "name": "WeCom (Enterprise WeChat)",
+          "vendor_company_id": "C0072",
+          "category": "Enterprise messaging client",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://wingetgui.com/apps/Tencent-WeCom",
+          "indicators": []
+        },
+        {
+          "software_id": "S0045",
+          "name": "Tencent Docs",
+          "vendor_company_id": "C0072",
+          "category": "Document collaboration client",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://docs.qq.com/desktop/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0073",
+      "name": "Tianma Microelectronics Co., Ltd. (Tianma)",
+      "short_alias": "Tianma",
+      "affiliation_rationale": "Tianma is indirectly owned by SASAC (Section 1260H(g)(2)(B)(i)(I)). Tianma is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "LCD/AMOLED display and touch-panel hardware manufacturer.",
+      "software": []
+    },
+    {
+      "company_id": "C0074",
+      "name": "TP-Link Technologies Co., Ltd. (TP-Link)",
+      "short_alias": "TP-Link",
+      "affiliation_rationale": "TP-Link is directly affiliated with the PLA (Section 1260H(g)(2)(B)(i)(I)). TP-Link is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance from the Government of China through science, technology, or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” (Section 1260H(g)(3)(A)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (2 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0046",
+          "name": "Omada Software Controller",
+          "vendor_company_id": "C0074",
+          "category": "On-prem network management console",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://support.omadanetworks.com/us/download/software/omada-controller/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0047",
+          "name": "Pharos Control",
+          "vendor_company_id": "C0074",
+          "category": "Centralized network management software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.tp-link.com/us/support/download/pharos-control/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0075",
+      "name": "Trina Solar Co., Ltd. (Trina Solar)",
+      "short_alias": "Trina Solar",
+      "affiliation_rationale": "TrinaSolar is indirectly affiliated with SASAC (Section 1260H(g)(2)(B)(i)(I)). TrinaSolar is a military-civil fusion contributor to the Chinese defense industrial base because it knowingly received assistance through science, technology, research or industrial efforts initiated, granted, or created by, or provided under, or related to, the Chinese military industrial planning apparatus or in furtherance of Chinese military industrial planning objectives through its designation as a “Single Champion” and it resides in a military-civil fusion enterprise zone (Sections 1260H(g)(3)(A) and (g)(3)(E)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Solar PV module hardware; monitoring is the cloud-based Trina Smart Cloud.",
+      "software": []
+    },
+    {
+      "company_id": "C0076",
+      "name": "Wuhan Geosun Navigation Technology Co., Ltd. (Geosun)",
+      "short_alias": "Geosun",
+      "affiliation_rationale": "Geosun is indirectly affiliated with SASAC, SASTIND, and the PLA (Section 1260H(g)(2)(B)(i)(I)). Geosun is a military civil fusion contributor to the Chinese defense industrial base because it received a military production license (Section 1260H(g)(3)(F)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (4 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0048",
+          "name": "GNSS Explorer",
+          "vendor_company_id": "C0076",
+          "category": "GNSS post-processing software",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://en.geosuntech.com/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0049",
+          "name": "Shuttle",
+          "vendor_company_id": "C0076",
+          "category": "GNSS/INS trajectory post-processing",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://en.geosuntech.com/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0050",
+          "name": "PointCloudCreater",
+          "vendor_company_id": "C0076",
+          "category": "Point-cloud preprocessing",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://en.geosuntech.com/",
+          "indicators": []
+        },
+        {
+          "software_id": "S0051",
+          "name": "WaypointMaster",
+          "vendor_company_id": "C0076",
+          "category": "UAV flight planning",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://en.geosuntech.com/",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0077",
+      "name": "WuXi AppTec Co., Ltd. (WuXi AppTec)",
+      "short_alias": "WuXi AppTec",
+      "affiliation_rationale": "WuXi AppTec is indirectly owned by SASAC and is indirectly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "no_windows_software_found",
+      "disposition_justification": "Pharma/biotech CRDMO services; customer tooling is a web portal.",
+      "software": []
+    },
+    {
+      "company_id": "C0078",
+      "name": "Yangtze Memory Technologies Co., Ltd. (YMTC)",
+      "short_alias": "YMTC",
+      "affiliation_rationale": "YMTC is indirectly owned by SASAC and is indirectly affiliated with MIIT and SASTIND (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (3 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0052",
+          "name": "ZHITAI UNIMASTER SSD",
+          "vendor_company_id": "C0078",
+          "category": "SSD management/monitoring utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.ymtc.com/cn/techsupport.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0053",
+          "name": "ZHITAI UNIMASTER PSSD",
+          "vendor_company_id": "C0078",
+          "category": "Portable SSD management utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.ymtc.com/cn/techsupport.html",
+          "indicators": []
+        },
+        {
+          "software_id": "S0054",
+          "name": "PSSD AESTool",
+          "vendor_company_id": "C0078",
+          "category": "Portable SSD encryption utility",
+          "windows_installable": true,
+          "catalog_status": "verified",
+          "source_url": "https://www.ymtc.com/cn/techsupport.html",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0079",
+      "name": "Zhejiang Dahua Technology Co., Ltd. (Dahua)",
+      "short_alias": "Dahua",
+      "affiliation_rationale": "Dahua is indirectly owned by SASAC and is directly and indirectly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [
+        {
+          "name": "Chengdu Dahua Wisdom Information Technology Co., Ltd.",
+          "short_alias": null
+        }
+      ],
+      "disposition": "software_no_verified_indicators",
+      "disposition_justification": "Publishes installable Windows software (6 product(s) catalogued); host-artifact detectors not yet built (Layer 3).",
+      "software": [
+        {
+          "software_id": "S0055",
+          "name": "SmartPSS",
+          "vendor_company_id": "C0079",
+          "category": "Video management client (Win64)",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        },
+        {
+          "software_id": "S0056",
+          "name": "SmartPSS Lite",
+          "vendor_company_id": "C0079",
+          "category": "Video management client",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        },
+        {
+          "software_id": "S0057",
+          "name": "DSS Express",
+          "vendor_company_id": "C0079",
+          "category": "Video management server software",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        },
+        {
+          "software_id": "S0058",
+          "name": "ConfigTool",
+          "vendor_company_id": "C0079",
+          "category": "Device discovery/configuration tool",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        },
+        {
+          "software_id": "S0059",
+          "name": "Smart Player",
+          "vendor_company_id": "C0079",
+          "category": "Playback/conversion tool",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        },
+        {
+          "software_id": "S0060",
+          "name": "Dahua Toolbox",
+          "vendor_company_id": "C0079",
+          "category": "Maintenance/utility suite",
+          "windows_installable": true,
+          "catalog_status": "reported",
+          "source_url": "https://www.dahuawiki.com/Software",
+          "indicators": []
+        }
+      ]
+    },
+    {
+      "company_id": "C0080",
+      "name": "Zhongji Innolight Co., Ltd. (Innolight)",
+      "short_alias": "Innolight",
+      "affiliation_rationale": "InnoLight is indirectly owned by SASAC and directly affiliated with MIIT (Section 1260H(g)(2)(B)(i)(I)).",
+      "subsidiaries": [],
+      "disposition": "hardware_or_firmware_only",
+      "disposition_justification": "High-speed optical transceiver/optical-module hardware (firmware onboard).",
+      "software": []
+    }
+  ],
+  "delisted": [
+    "Anhui Sun Create Electronics Co., Ltd.",
+    "China International Information Services Ltd.",
+    "China National Chemical Engineering Co., Ltd.",
+    "China Traffic Construction USA, Inc.",
+    "CNOOC China Limited (CNOOC China Ltd.)",
+    "CNOOC International Trading Co., Ltd. (CNOOC International Trading)",
+    "COSCO SHIPPING Finance Co., Ltd.",
+    "Costar Group Co., Ltd. (Costar)",
+    "GLARUN Technology Co., Ltd.",
+    "Taiji Computer Co., Ltd."
+  ],
+  "backlog": []
+}

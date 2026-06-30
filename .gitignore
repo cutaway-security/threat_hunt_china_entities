@@ -1,0 +1,31 @@
+*.key.txt
+*.key.txt.bak
+*.key.txt.old
+
+# Python / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+
+# Verification pipeline runtime
+runs/
+runs.sqlite
+*.tmp
+
+# Playwright/browser caches (browsers live in ~/.cache/ms-playwright)
+.cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# packaging output
+release/

@@ -1,0 +1,118 @@
+"# AI-assisted best-effort. 1260H designation = corporate affiliation, NOT malware. Report, do not auto-block."
+company_id,vendor,platform_class,software,category,confidence,source_url
+C0001,Qihoo 360,Windows,360 Total Security,Antivirus / endpoint security suite,verified,https://www.360totalsecurity.com/
+C0002,CH UAV,None,,,,
+C0003,Aerosun,None,,,,
+C0004,Alibaba,Windows,DingTalk,Enterprise collaboration desktop client,reported,https://www.wingetgui.com/apps/Alibaba-DingTalk
+C0005,Autel Technology,Windows,Maxi PC Suite,Diagnostic device update/management utility,verified,https://autel.us/software-downloads/
+C0005,Autel Technology,Windows,MaxiLinkII,Code-reader desktop tool,verified,https://autel.us/software-downloads/
+C0005,Autel Technology,Windows,MaxiScope,PC oscilloscope software,verified,https://autel.us/software-downloads/
+C0005,Autel Technology,Windows,DS708 PC Suite,MaxiDAS DS708 update suite,verified,https://autel.us/software-downloads/
+C0006,Autel Robotics,Device/Firmware,,,,
+C0007,AVIC,None,,,,
+C0008,Baicells,Server/Linux,,,,
+C0009,Baidu,Windows,Baidu Netdisk,Cloud-storage desktop client,reported,https://wingetgui.com/apps/Baidu-BaiduNetdisk
+C0010,Knownsec,Windows,ZoomEye-python,CLI/SDK (pip; cross-platform incl. Windows),verified,https://github.com/knownsec/ZoomEye-python
+C0011,BGI Group,Candidate,,,,
+C0012,BOE,Device/Firmware,,,,
+C0013,BYD,Device/Firmware,,,,
+C0014,CALB,Device/Firmware,,,,
+C0015,"CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)",Candidate,Endpoint Security Management System,Endpoint security client,candidate,https://en.cetccst.com.cn/about/173.html
+C0015,"CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)",Candidate,File Encryption and Access Control,Endpoint encryption client,candidate,https://en.cetccst.com.cn/about/173.html
+C0015,"CETC Cyberspace Security Technology Co., Ltd. (formerly Chen Du Westone Information Industry Co., Ltd.)",Candidate,OrangeMessage,Secure messaging client,candidate,https://en.cetccst.com.cn/about/173.html
+C0016,"CETC Digital Technology Co., Ltd. (formerly Shanghai East China Computer Co., Ltd.)",Server/Linux,,,,
+C0017,"CETC Potevio Science & Technology Co., Ltd (formerly Guangzhou GCI Science & Technology Co., Ltd.)",Device/Firmware,,,,
+C0018,CXMT,Device/Firmware,,,,
+C0019,JOUAV,Candidate,Eagle Map,Drone GCS / mission-planning software,candidate,https://www.jouav.com/products/eagle-map.html
+C0019,JOUAV,Candidate,FlightSurv,Drone mapping / flight-planning,candidate,https://www.jouav.com/products/software/
+C0020,M&S Electronics,Device/Firmware,,,,
+C0021,CASIC,None,,,,
+C0022,CCA,None,,,,
+C0023,CCCG,None,,,,
+C0024,CCTC,None,,,,
+C0025,COSCO SHIPPING,None,,,,
+C0026,CEC,Candidate,,,,
+C0027,CETC,Candidate,,,,
+C0028,CGN,None,,,,
+C0029,CIMC,Device/Firmware,,,,
+C0030,China Mobile Comm,None,,,,
+C0031,ChemChina,None,,,,
+C0032,CNCEC,None,,,,
+C0033,CNNC,None,,,,
+C0034,CNOOC,None,,,,
+C0035,Norinco Group,Device/Firmware,,,,
+C0036,CSGC,Device/Firmware,,,,
+C0037,China SpaceSat,None,,,,
+C0038,CSCEC,None,,,,
+C0039,CSSC,None,,,,
+C0040,China Telecom,Windows,Cloud 189 PC client,Cloud-storage desktop client,verified,https://cloud.189.cn/web/static/download-client/index.html
+C0040,China Telecom,Windows,eCloud Computer,Cloud-desktop client,reported,https://apps.microsoft.com/detail/xpdnk2982gqmxt
+C0041,CTG,None,,,,
+C0042,China Unicom,None,,,,
+C0043,CloudWalk,Candidate,,,,
+C0044,COMAC,None,,,,
+C0045,CATL,Device/Firmware,,,,
+C0046,CRRC,None,,,,
+C0047,COMEC,None,,,,
+C0048,Sugon,Candidate,,,,
+C0049,"EVE Energy Co., Ltd.",Device/Firmware,,,,
+C0050,GTCOM,Windows,YeeKit Word Translation Plug-in,MS Word translation client (C/S),verified,https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25
+C0050,GTCOM,Windows,YeeCaption,Audio/video translation desktop software,verified,https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25
+C0051,Guizhou Aviation Tech,Device/Firmware,,,,
+C0052,Hikvision,Windows,iVMS-4200,Video-management client (VMS),verified,https://www.hikvision.com/us-en/support/download/software/ivms4200-series/
+C0052,Hikvision,Windows,HikCentral Professional,Video surveillance management software,verified,https://us.hikvision.com/en/products/software/ivms-4200-series/free-client-software-hikvision-devices-ivms-4200-windows
+C0052,Hikvision,Windows,SADP Tool,Device search/activation utility,verified,https://www.hikvision.com/us-en/support/download/software/
+C0052,Hikvision,Windows,Batch Configuration Tool,Device batch-configuration utility,verified,https://www.hikvision.com/us-en/support/download/software/
+C0053,Unitree,Windows,Unilidar 2,4D LiDAR point-cloud visualization (Win64),verified,https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf
+C0053,Unitree,Windows,unilidar_sdk,LiDAR SDK,verified,https://github.com/unitreerobotics/unilidar_sdk
+C0054,"Hesai Group (also known as Hesai Technology Co., Ltd.)",Windows,PandarView 2,Point-cloud visualization desktop app,verified,https://www.hesaitech.com/product_downloads/pandarview-2/
+C0054,"Hesai Group (also known as Hesai Technology Co., Ltd.)",Windows,LidarUtilities,Device configuration utilities (Win64),verified,https://www.hesaitech.com/downloads/
+C0055,Huawei Holding,Windows,HUAWEI PC Manager,PC management / device-collaboration app,verified,https://consumer.huawei.com/en/support/pc-manager/
+C0055,Huawei Holding,Windows,HUAWEI HiSuite,"Phone/PC suite (backup, data management)",verified,https://consumer.huawei.com/en/support/hisuite/
+C0055,Huawei Holding,Windows,eNSP / eNSP Pro,Enterprise network simulation platform,verified,https://info.support.huawei.com/info-finder/encyclopedia/en/eNSP+Pro.html
+C0056,Inspur,Candidate,InspurDiagLogCollect-Win,Server diagnostic/log-collection client tool,candidate,https://www.scribd.com/presentation/458371263/3-Knowdge-base-and-tools
+C0057,JA Solar,Device/Firmware,,,,
+C0058,MGI,Candidate,,,,
+C0059,NetPosa,Candidate,,,,
+C0060,"NIO, Inc.",Device/Firmware,,,,
+C0061,Novogene,None,,,,
+C0062,Origincell,Device/Firmware,,,,
+C0063,Phenix Optical Company Limited (formerly Phoenix Optics Company Limited),Candidate,Phenix microscope imaging software,Microscope imaging/measurement (bundled),candidate,https://www.medicalexpo.com/prod/phenix-optics-co-ltd/product-301427-1015838.html
+C0063,Phenix Optical Company Limited (formerly Phoenix Optics Company Limited),Candidate,Phenix ME200 digital-microscope driver,Windows device driver,candidate,https://phenix-digital-microscope-me200-vu-drvie.software.informer.com/
+C0064,"Quectel Wireless Solutions Co., Ltd.",Windows,Quectel Windows USB Driver,Windows USB device driver (NDIS/ECM/RNDIS),verified,https://www.quectel.com/download/quectel_windows_usb_driverq_ndis_v2-8_en/
+C0064,"Quectel Wireless Solutions Co., Ltd.",Windows,QNavigator,Module test / AT-command GUI tool,verified,https://www.quectel.com/download/qnavigator_v1-5/
+C0064,"Quectel Wireless Solutions Co., Ltd.",Windows,QCOM,Serial / AT-command terminal tool,verified,https://www.quectel.com/download/qcom_v1-6/
+C0064,"Quectel Wireless Solutions Co., Ltd.",Windows,QFlash,Firmware flashing utility,reported,https://techship.com/downloads/quectel-qflash-flash-tool-for-windows/
+C0065,"Robosense Technology Co., Ltd.",Windows,RSView,LiDAR point-cloud visualization / config app,verified,https://store.robosense.ai/pages/faq-software-rsview
+C0066,"SDIC Intelligence (Xiamen) Information Co., Ltd.",Windows,Forensics Master,Digital forensic analysis software,verified,https://www.meiyapico.com/forensics-master_p18.html
+C0067,SMIC,Device/Firmware,,,,
+C0068,SenseTime,Candidate,,,,
+C0069,Yitu,Server/Linux,,,,
+C0070,DJI,Windows,DJI Assistant 2,Drone firmware / calibration tool,verified,https://www.dji.com/downloads/softwares/assistant-dji-2
+C0070,DJI,Windows,DJI Terra,Photogrammetry / mapping app (Windows-only),verified,https://www.dji.com/downloads/products/dji-terra
+C0070,DJI,Windows,DJI Thermal Analysis Tool 3,Thermal image analysis tool,verified,https://www.dji.com/downloads/softwares/dji-dtat3
+C0071,SinoTrans,None,,,,
+C0072,Tencent,Windows,WeChat for Windows,Messaging client,verified,https://www.wechat.com/en
+C0072,Tencent,Windows,QQ for Windows,Messaging client,verified,https://im.qq.com/
+C0072,Tencent,Windows,Tencent Meeting (VooV),Video conferencing client,verified,https://voovmeeting.com/download-center.html
+C0072,Tencent,Windows,WeCom (Enterprise WeChat),Enterprise messaging client,reported,https://wingetgui.com/apps/Tencent-WeCom
+C0072,Tencent,Windows,Tencent Docs,Document collaboration client,verified,https://docs.qq.com/desktop/
+C0073,Tianma,Device/Firmware,,,,
+C0074,TP-Link,Windows,Omada Software Controller,On-prem network management console,verified,https://support.omadanetworks.com/us/download/software/omada-controller/
+C0074,TP-Link,Windows,Pharos Control,Centralized network management software,verified,https://www.tp-link.com/us/support/download/pharos-control/
+C0075,Trina Solar,None,,,,
+C0076,Geosun,Windows,GNSS Explorer,GNSS post-processing software,verified,https://en.geosuntech.com/
+C0076,Geosun,Windows,Shuttle,GNSS/INS trajectory post-processing,verified,https://en.geosuntech.com/
+C0076,Geosun,Windows,PointCloudCreater,Point-cloud preprocessing,verified,https://en.geosuntech.com/
+C0076,Geosun,Windows,WaypointMaster,UAV flight planning,verified,https://en.geosuntech.com/
+C0077,WuXi AppTec,None,,,,
+C0078,YMTC,Windows,ZHITAI UNIMASTER SSD,SSD management/monitoring utility,verified,https://www.ymtc.com/cn/techsupport.html
+C0078,YMTC,Windows,ZHITAI UNIMASTER PSSD,Portable SSD management utility,verified,https://www.ymtc.com/cn/techsupport.html
+C0078,YMTC,Windows,PSSD AESTool,Portable SSD encryption utility,verified,https://www.ymtc.com/cn/techsupport.html
+C0079,Dahua,Windows,SmartPSS,Video management client (Win64),reported,https://www.dahuawiki.com/Software
+C0079,Dahua,Windows,SmartPSS Lite,Video management client,reported,https://www.dahuawiki.com/Software
+C0079,Dahua,Windows,DSS Express,Video management server software,reported,https://www.dahuawiki.com/Software
+C0079,Dahua,Windows,ConfigTool,Device discovery/configuration tool,reported,https://www.dahuawiki.com/Software
+C0079,Dahua,Windows,Smart Player,Playback/conversion tool,reported,https://www.dahuawiki.com/Software
+C0079,Dahua,Windows,Dahua Toolbox,Maintenance/utility suite,reported,https://www.dahuawiki.com/Software
+C0080,Innolight,Device/Firmware,,,,
