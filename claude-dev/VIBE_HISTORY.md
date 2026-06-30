@@ -5,7 +5,27 @@ Claude writes and reads this for continuity. Not a human chore.
 
 ---
 
-## 2026-06-30 (latest) — Consolidated to the real deliverable; repo plan
+## 2026-06-30 (latest) — PowerShell validated on real Windows 10; BOM bug fixed
+
+Tested `Find-DesignatedVendorSoftware.ps1` against the CutSec Proxmox lab per the CHAPS method
+(`/home/cutaway/Projects/chaps/claude-dev/REMOTE_TESTING.md`): Windows VMs are reached over **SSH**
+using aliases in `~/.ssh/config` (real IPs/keys/VMIDs live only there, never in a repo); the
+`vm-lookup` helper resolves the Proxmox VMID; pattern is start-VM -> `scp` script to `C:/Temp/` ->
+`ssh` run -> capture -> clean up. (Did NOT copy any CHAPS content into this repo.)
+
+**Bug caught by real-host testing:** Windows PowerShell 5.1 reads BOM-less UTF-8 `.ps1` as ANSI, so
+the non-ASCII (CJK) vendor publisher patterns were mangled -> parse error. Fixed by saving the script
+as **UTF-8 with BOM** (committed to both branches). Re-validated on **Windows 10 Pro,
+PS 5.1.18362** (`DESKTOP-582JB74`): the script parses and runs; correctly reports no
+designated-vendor software on a clean host; and with a `-Vendors` override the registry-uninstall
+enumeration + Publisher/DisplayName match path returned the expected hits (Microsoft Edge/WebView2/
+OneDrive/Update Health Tools) with the review-don't-block message and pipeline objects. The earlier
+"registry-match path untested" caveat is now resolved.
+
+Lab note: the Win10 alias IP in `~/.ssh/config` was stale and the QEMU guest agent was not running;
+Don brought sshd up. Default SSH shell on these VMs is `cmd` (use `powershell -File`/`-Command`).
+
+## 2026-06-30 — Consolidated to the real deliverable; repo plan
 
 Don's scope call: drop the broad ambitions (no public website, no STIX/YAML, no export machinery in
 the deliverable). **The deliverable is the company -> software list in two forms: a readable report
