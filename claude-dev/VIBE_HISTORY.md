@@ -5,6 +5,25 @@ Claude writes and reads this for continuity. Not a human chore.
 
 ---
 
+## 2026-06-30 (most recent) — Output documented; QA pass; paused at a clean stopping point
+
+- **PowerShell output defined + documented.** `Find-DesignatedVendorSoftware.ps1` now writes matched
+  items to STDOUT as objects (pipeable to Export-Csv / EDR), keeps the status/summary on the console
+  stream so it never pollutes a pipe/redirect, and adds `-OutputCsv` for direct file output. README has
+  an "Output" subsection; comment-based help has .OUTPUTS/.PARAMETER/.EXAMPLE. All three save modes
+  validated on the Win10 target.
+- **QA pass (pre-share quality gate).** Link-liveness: 44 source URLs, 41 live, 3 WAF-403
+  (authoritative/candidate), **0 dead** (tool: `data/check_links.py`). Accuracy: 52 verified/reported
+  entries re-verified by 3 independent agents -> **no fabricated vendors/products, tiers correct.**
+  Four corrections applied: Knownsec ZoomEye-python clarified (pip CLI, not a Windows installer);
+  Unitree `unilidar_sdk` removed (Linux/ROS, not Windows; **60 -> 59 products**); Hikvision HikCentral
+  source URL fixed (had pointed at an iVMS-4200 page); Geosun "Windows implied, OS not stated" caveat.
+  Several vendor pages are JS-rendered and were corroborated via search. Detectors re-attached (2) on
+  the corrected catalog; all ship gates pass. Write-up: `claude-dev/QA_20260630_link_and_accuracy.md`.
+- **Status:** shipped to `cutaway-security/threat_hunt_china_entities` (private); `main` = deliverable
+  (default), `claude-dev` = full project. **Paused here at Don's direction.** Remaining is optional and
+  downstream (humanize the prose for the blog; ETAC hand-off; the blog post; candidate/detector enrichment).
+
 ## 2026-06-30 (latest) — PowerShell validated on real Windows 10; BOM bug fixed
 
 Tested `Find-DesignatedVendorSoftware.ps1` against the CutSec Proxmox lab per the CHAPS method

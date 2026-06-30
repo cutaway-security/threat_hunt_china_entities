@@ -9,19 +9,22 @@ ships real, tested work behind an objective acceptance gate.
 
 ## Current Phase
 
-**v0.1 (Trusted entity foundation) COMPLETE — Gate A passed.** TSC-01 fidelity gate (golden +
-name-diff) passes; the committed JSON schema enforces the claim-typed model and rejects hashes/version
-pins/orphans; the entities-only master stub (80+10) validates. TSC-08 clean. **Now entering v0.2**
-(verification pipeline as code + verified seed + ship gates).
+**COMPLETE — deliverable built, validated, QA'd, and shipped; paused at Don's direction (2026-06-30).**
+The project ran all the way through: v0.1 (entity foundation + schema + gates), Layer 2 (full software
+catalog, all 80 assessed), Layer 3 (best-effort detectors), consolidation to the real deliverable,
+real-Windows-10 validation of the PowerShell sweep, and a link-liveness + accuracy QA pass. Shipped to
+the private repo `cutaway-security/threat_hunt_china_entities`: `main` = deliverable (default),
+`claude-dev` = full project. See RESUME.md for the current snapshot.
 
-**Sequencing (Don, 2026-06-30, corrected):** complete the **full, well-developed deliverable** first
-(no early shares). Then distribute two ways, both at the end: (1) a **private ETAC package** — a
-separate, well-developed "aside" ETAC can use as-is or start from and enrich; and (2) the **public
-release + CutSec blog** for industry. ETAC sharing is private and **must not appear in any
-public-facing doc** (README, public release, blog). This is a **bounded client deliverable** — no
-ongoing enrichment commitment unless ETAC specifically requests collaboration later. ETAC may enrich
-the gaps themselves, so the hard vendors are not a blocker — but we still aim for a *complete and
-polished* deliverable, not a minimal seed.
+**Scope (final, Don):** the deliverable is the **company -> software list** (readable report +
+JSON/CSV tool-feed) plus the validated PowerShell vendor/software sweep. The website / STIX / YAML /
+export-machinery were dropped from the deliverable (tooling kept in `claude-dev` for history). **ETAC
+gets the same content as the public release** (consolidated — no separate ETAC package); ETAC sharing
+is private and not referenced in any public-facing doc. Bounded client deliverable; ETAC may enrich.
+
+**Remaining (optional, downstream, user-driven):** humanize README/METHODOLOGY for the blog;
+the ETAC hand-off and CutSec blog post (separate efforts off `main`); optional candidate/detector
+enrichment.
 
 ## Phases
 
