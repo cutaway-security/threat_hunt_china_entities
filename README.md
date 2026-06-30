@@ -43,6 +43,16 @@ push via your management tooling):
 powershell -ExecutionPolicy Bypass -File .\Find-DesignatedVendorSoftware.ps1
 ```
 
+**Output — it goes to standard output, not a file (unless you ask).**
+- A one-line **status/summary** prints to the console (e.g. "4 designated-vendor software item(s) found. REVIEW…").
+- Each match is emitted to **stdout as an object** (`Host, DisplayName, DisplayVersion, Publisher, InstallLocation, InstallDate`). Run interactively you'll see them listed; the status line is kept on a separate stream so it does **not** pollute piped or redirected output.
+- It creates **no file by itself.** To save results, choose one:
+  - `-OutputCsv C:\Temp\found.csv` — built-in CSV file output.
+  - `... | Export-Csv -NoTypeInformation found.csv` — pipe the objects into your own CSV / EDR collection tooling.
+  - `... > found.txt` — redirect the readable output to a text file.
+
+Validated on Windows 10 Pro (PowerShell 5.1): the no-match path, the registry/Publisher match path, and all three save options work as described.
+
 **Reduce false negatives — read this.** This method only sees software registered in Add/Remove
 Programs with a recognizable vendor string. It **will miss**: portable/unregistered apps, embedded SDK
 components (DLLs inside other software), renamed binaries, and software whose Publisher is a localized
