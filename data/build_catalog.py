@@ -134,7 +134,7 @@ SOFTWARE = {
               ("MaxiScope", "PC oscilloscope software", "https://autel.us/software-downloads/", "verified"),
               ("DS708 PC Suite", "MaxiDAS DS708 update suite", "https://autel.us/software-downloads/", "verified")],
     "C0009": [("Baidu Netdisk", "Cloud-storage desktop client", "https://wingetgui.com/apps/Baidu-BaiduNetdisk", "reported")],
-    "C0010": [("ZoomEye-python", "CLI/SDK (pip; cross-platform incl. Windows)", "https://github.com/knownsec/ZoomEye-python", "verified")],
+    "C0010": [("ZoomEye-python", "cross-platform Python CLI/SDK via pip (runs on Windows; NOT a standalone Windows installer)", "https://github.com/knownsec/ZoomEye-python", "verified")],
     "C0015": [("Endpoint Security Management System", "Endpoint security client", "https://en.cetccst.com.cn/about/173.html", "candidate"),
               ("File Encryption and Access Control", "Endpoint encryption client", "https://en.cetccst.com.cn/about/173.html", "candidate"),
               ("OrangeMessage", "Secure messaging client", "https://en.cetccst.com.cn/about/173.html", "candidate")],
@@ -145,11 +145,13 @@ SOFTWARE = {
     "C0050": [("YeeKit Word Translation Plug-in", "MS Word translation client (C/S)", "https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25", "verified"),
               ("YeeCaption", "Audio/video translation desktop software", "https://www.gtcom.com.cn/en/index.php?c=products&a=sanlist&id=25", "verified")],
     "C0052": [("iVMS-4200", "Video-management client (VMS)", "https://www.hikvision.com/us-en/support/download/software/ivms4200-series/", "verified"),
-              ("HikCentral Professional", "Video surveillance management software", "https://us.hikvision.com/en/products/software/ivms-4200-series/free-client-software-hikvision-devices-ivms-4200-windows", "verified"),
+              ("HikCentral Professional", "Video surveillance management software (Windows)", "https://www.hikvision.com/us-en/support/download/software/", "verified"),
               ("SADP Tool", "Device search/activation utility", "https://www.hikvision.com/us-en/support/download/software/", "verified"),
               ("Batch Configuration Tool", "Device batch-configuration utility", "https://www.hikvision.com/us-en/support/download/software/", "verified")],
-    "C0053": [("Unilidar 2", "4D LiDAR point-cloud visualization (Win64)", "https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf", "verified"),
-              ("unilidar_sdk", "LiDAR SDK", "https://github.com/unitreerobotics/unilidar_sdk", "verified")],
+    "C0053": [("Unilidar 2", "4D LiDAR point-cloud visualization desktop app (Win64; OS per vendor manual, corroborated via search)", "https://oss-global-cdn.unitree.com/static/Unitree%204D%20LiDAR%20L2%20User%20Manual.pdf", "verified")],
+    # NOTE: removed 'unilidar_sdk' (github.com/unitreerobotics/unilidar_sdk) per accuracy QA -- it is the
+    # L1 C++/ROS/ROS2 SDK, Linux-oriented, not Windows software. The L2's separate unilidar_sdk2 mentions
+    # Windows but was not separately verified; left out rather than mis-attribute.
     "C0054": [("PandarView 2", "Point-cloud visualization desktop app", "https://www.hesaitech.com/product_downloads/pandarview-2/", "verified"),
               ("LidarUtilities", "Device configuration utilities (Win64)", "https://www.hesaitech.com/downloads/", "verified")],
     "C0055": [("HUAWEI PC Manager", "PC management / device-collaboration app", "https://consumer.huawei.com/en/support/pc-manager/", "verified"),
@@ -174,10 +176,12 @@ SOFTWARE = {
               ("Tencent Docs", "Document collaboration client", "https://docs.qq.com/desktop/", "verified")],
     "C0074": [("Omada Software Controller", "On-prem network management console", "https://support.omadanetworks.com/us/download/software/omada-controller/", "verified"),
               ("Pharos Control", "Centralized network management software", "https://www.tp-link.com/us/support/download/pharos-control/", "verified")],
-    "C0076": [("GNSS Explorer", "GNSS post-processing software", "https://en.geosuntech.com/", "verified"),
-              ("Shuttle", "GNSS/INS trajectory post-processing", "https://en.geosuntech.com/", "verified"),
-              ("PointCloudCreater", "Point-cloud preprocessing", "https://en.geosuntech.com/", "verified"),
-              ("WaypointMaster", "UAV flight planning", "https://en.geosuntech.com/", "verified")],
+    # Geosun: vendor confirms it publishes these desktop tools; pages do NOT explicitly state Windows
+    # (desktop GNSS/LiDAR/flight tools, Windows implied not stated) -- per accuracy QA.
+    "C0076": [("GNSS Explorer", "GNSS post-processing (desktop; Windows implied, OS not stated on vendor page)", "https://en.geosuntech.com/", "verified"),
+              ("Shuttle", "GNSS/INS trajectory post-processing (desktop; Windows implied, OS not stated)", "https://en.geosuntech.com/", "verified"),
+              ("PointCloudCreater", "Point-cloud preprocessing (desktop; Windows implied, OS not stated)", "https://en.geosuntech.com/", "verified"),
+              ("WaypointMaster", "UAV flight planning (desktop; Windows implied, OS not stated)", "https://en.geosuntech.com/", "verified")],
     "C0078": [("ZHITAI UNIMASTER SSD", "SSD management/monitoring utility", "https://www.ymtc.com/cn/techsupport.html", "verified"),
               ("ZHITAI UNIMASTER PSSD", "Portable SSD management utility", "https://www.ymtc.com/cn/techsupport.html", "verified"),
               ("PSSD AESTool", "Portable SSD encryption utility", "https://www.ymtc.com/cn/techsupport.html", "verified")],
