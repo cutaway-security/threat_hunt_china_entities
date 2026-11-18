@@ -4,7 +4,17 @@
     "source_url": "https://media.defense.gov/2026/Jun/08/2003945537/-1/-1/1/ENTITIES-IDENTIFIED-AS-CHINESE-MILITARY-COMPANIES-OPERATING-IN-THE-UNITED-STATES-IN-ACCORDANCE-WITH-SECTION-1260H.PDF",
     "source_date": "2026-06-08",
     "list_version": "2026-06-08",
-    "best_effort": true
+    "best_effort": true,
+    "amendments": [
+      {
+        "date": "2026-11-10",
+        "action": "removed",
+        "name": "WuXi AppTec Co., Ltd. (WuXi AppTec)",
+        "company_id": "C0077",
+        "federal_register_doc": "2026-22840",
+        "source_url": "https://www.federalregister.gov/documents/2026/11/10/2026-22840/notice-of-removal-of-designated-chinese-military-company"
+      }
+    ]
   },
   "entities": [
     {
@@ -1786,16 +1796,6 @@
       ]
     },
     {
-      "company_id": "C0077",
-      "name": "WuXi AppTec Co., Ltd. (WuXi AppTec)",
-      "short_alias": "WuXi AppTec",
-      "affiliation_rationale": "WuXi AppTec is indirectly owned by SASAC and is indirectly affiliated with SASTIND and the PLA (Section 1260H(g)(2)(B)(i)(I)).",
-      "subsidiaries": [],
-      "disposition": "no_windows_software_found",
-      "disposition_justification": "Pharma/biotech CRDMO services; customer tooling is a web portal.",
-      "software": []
-    },
-    {
       "company_id": "C0078",
       "name": "Yangtze Memory Technologies Co., Ltd. (YMTC)",
       "short_alias": "YMTC",
@@ -1933,7 +1933,8 @@
     "COSCO SHIPPING Finance Co., Ltd.",
     "Costar Group Co., Ltd. (Costar)",
     "GLARUN Technology Co., Ltd.",
-    "Taiji Computer Co., Ltd."
+    "Taiji Computer Co., Ltd.",
+    "WuXi AppTec Co., Ltd. (WuXi AppTec)"
   ],
   "backlog": []
 }

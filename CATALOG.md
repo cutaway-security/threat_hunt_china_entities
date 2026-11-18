@@ -1,18 +1,18 @@
 # Section 1260H Software Catalog (Layer 2)
 
-AI-assisted, best-effort. Source: DoD Section 1260H list dated 2026-06-08. This is **exposure/inventory** analysis, not malware detection — a 1260H designation is a corporate-affiliation flag, not a finding that the software is malicious. **Report, do not auto-block.** Generated from the dataset; do not hand-edit.
+AI-assisted, best-effort. Source: DoD Section 1260H list dated 2026-06-08, with the removal of WuXi AppTec (Federal Register, 2026-11-10) applied. This is **exposure/inventory** analysis, not malware detection — a 1260H designation is a corporate-affiliation flag, not a finding that the software is malicious. **Report, do not auto-block.** Generated from the dataset; do not hand-edit.
 
-## Coverage (all 80 designated parent entities assessed)
+## Coverage (all 79 designated parent entities assessed)
 
 | Disposition | Count |
 |---|---|
-| No installable Windows software found | 26 |
+| No installable Windows software found | 25 |
 | Publishes installable Windows software | 19 |
 | Hardware / firmware only | 19 |
 | Candidate — software likely, not yet confirmed | 12 |
 | Server / Linux platforms only | 3 |
 | indicators_identified | 1 |
-| **Total** | **80** |
+| **Total** | **79** |
 
 **Software products catalogued:** 59 (40 verified vendor-official, 11 reported third-party, 8 candidate). Verified/reported are usable now; candidates need confirmation.
 
@@ -110,7 +110,7 @@ Confidence tiers: **VERIFIED** = vendor-official + a second independent source f
 
 ## Vendors assessed as producing no installable Windows software
 
-**No installable Windows software found (26):** AVIC; Aerosun; CASIC; CCA; CCCG; CCTC; CGN; CH UAV; CNCEC; CNNC; CNOOC; COMAC; COMEC; COSCO SHIPPING; CRRC; CSCEC; CSSC; CTG; ChemChina; China Mobile Comm; China SpaceSat; China Unicom; Novogene; SinoTrans; Trina Solar; WuXi AppTec
+**No installable Windows software found (25):** AVIC; Aerosun; CASIC; CCA; CCCG; CCTC; CGN; CH UAV; CNCEC; CNNC; CNOOC; COMAC; COMEC; COSCO SHIPPING; CRRC; CSCEC; CSSC; CTG; ChemChina; China Mobile Comm; China SpaceSat; China Unicom; Novogene; SinoTrans; Trina Solar
 
 **Hardware / firmware only (19):** Autel Robotics; BOE; BYD; CALB; CATL; CETC Potevio Science & Technology Co., Ltd (formerly Guangzhou GCI Science & Technology Co., Ltd.); CIMC; CSGC; CXMT; EVE Energy Co., Ltd.; Guizhou Aviation Tech; Innolight; JA Solar; M&S Electronics; NIO, Inc.; Norinco Group; Origincell; SMIC; Tianma
 
