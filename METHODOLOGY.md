@@ -16,6 +16,8 @@ Everything here is **exposure / inventory** analysis, not malware detection.
 1. **Entities (complete).** The 80 designated parent entities, 108 named subsidiaries, and 10 delisted
    entities were extracted reproducibly from the notice with a parser that self-checks against a
    committed count and a full name-diff, so a future list revision cannot silently corrupt the data.
+   Later Federal Register removals are applied on top and recorded in `meta.amendments` (WuXi AppTec,
+   removed 2026-11-10, is now under `delisted`); `Compare-1260HList.ps1` reports any new ones.
 
 2. **Software catalog (complete coverage, tiered).** Every one of the 80 entities was assessed for
    whether it publishes installable Windows software. Most do not (aerospace, shipping, nuclear,

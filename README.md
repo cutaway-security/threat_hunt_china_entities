@@ -8,13 +8,14 @@ software. **Report findings for human review; do not auto-block.**
 
 ## Findings
 
-Of the **80 designated parent entities** (plus 108 named subsidiaries and 10 delisted entities):
+Of the **79 designated parent entities** (plus 108 named subsidiaries and 11 delisted entities; WuXi AppTec
+was removed by a Federal Register notice on 2026-11-10):
 
 - **20 publish installable Windows software** (surveillance, consumer, networking, device-management,
   security, and engineering tools).
 - **3** deliver primarily **server / Linux** platforms.
 - **19** are **device / firmware** vendors (chips, displays, batteries, optics, sensors).
-- **26** produce **no installable software** (aerospace, shipping, nuclear, chemical, construction,
+- **25** produce **no installable software** (aerospace, shipping, nuclear, chemical, construction,
   logistics, services).
 - **12** are **candidates** — likely to publish software but not yet confirmed for Windows.
 
@@ -32,6 +33,7 @@ products, descriptions, sources, and confidence is in **[CATALOG.md](CATALOG.md)
 | **companies_software.csv** | Spreadsheets / simple tools | A flat company + software list. |
 | **Find-DesignatedVendorSoftware.ps1** | Hunters / admins | A PowerShell sweep of installed software for these vendors (see below). |
 | **METHODOLOGY.md** | Reviewers | How it was built, the discipline, and the limitations. |
+| **Compare-1260HList.ps1** | Maintainers | Checks the dataset against the current 1260H list (see below). |
 
 ## Finding it on your endpoints
 
@@ -58,6 +60,23 @@ Programs with a recognizable vendor string. It **will miss**: portable/unregiste
 components (DLLs inside other software), renamed binaries, and software whose Publisher is a localized
 or unexpected name not in the vendor list. **Treat "no match" as "not found by this method," not "the
 software is absent."** Pair it with the catalog for manual review and conversations with system owners.
+
+## Keeping the list current
+
+DoD adds and removes 1260H entities between annual lists with Federal Register notices.
+`Compare-1260HList.ps1` downloads the current list from a pinned release of
+[us-restricted-parties](https://github.com/Mattbusel/us-restricted-parties) (a daily build from the
+Federal Register), checks the file's SHA-256 against that release's `manifest.json`, and prints each
+parent entity that is in `entities.master.json` but no longer listed (with the removal notice), or
+listed but missing here. It is read-only and needs only Windows PowerShell 5.1 or later.
+
+```powershell
+.\Compare-1260HList.ps1                  # pinned release
+.\Compare-1260HList.ps1 -Release latest  # newest daily build
+```
+
+No output objects means the dataset matches the list. `tests/Test-Compare1260HList.ps1` runs it
+against local test files (no network).
 
 ## Limitations
 
